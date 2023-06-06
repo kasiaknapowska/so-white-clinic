@@ -5,9 +5,11 @@
   scroll-behavior: smooth;
 }
 body {
+  min-height: 200vh;
+  position: relative;
   font-family: $montserrat;
   color: $colorNeutralDark;
-
+  font-size: 14px;
   a {
     text-decoration: none;
     color: inherit;

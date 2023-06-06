@@ -1,0 +1,18 @@
+@import "../../../scss/variables";
+
+.btnPrimary {
+    display: block;
+    background-color: $colorSecondary;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: $btnPadding;
+    border-radius: $borderRadius;
+
+    .icon {
+        height: 1rem;
+        position: relative;
+        top: -2px;
+        left: -$space2;
+    }
+}

@@ -1,0 +1,31 @@
+//colors
+$colorPrimary: #4BC8E6;
+$colorPrimaryTransparent: rgb(75, 200, 230, 0.1);
+$colorSecondary: #6EC846;
+$colorAccent: #255faa;
+$colorNeutral: #7E7E7E;
+$colorNeutralDark: #343434;
+$colorNeutralLight: #CECECE;
+$colorWhiteTransparent10: rgba(255, 255, 255, 0.1);
+
+//spaces
+$space1: 0.25rem;
+$space2: 0.5rem;
+$space3: 1rem;
+$space4: 1.5rem;
+$space5: 2rem;
+$space6: 3rem;
+$sizeContent: 1080px;
+$sizeGutter: $space4;
+$sizeGap: $space6;
+
+//fonts
+$montserrat: 'Montserrat', sans-serif;
+$varela: 'Varela Round', sans-serif;
+
+//breakpoints
+$mobile: "max-width: 360px";
+$tablet_s: "min-width: 500px";
+$tablet: "min-width: 700px";
+$desktop_s: "min-width: 1000px";
+$desktop: "min-width: 1100px"; 

@@ -7,25 +7,11 @@ import Seo from "../components/seo"
 
 import "../scss/_index.scss"
 
-
 const IndexPage = () => (
   <Layout>
-    <div >
-      <StaticImage
-        src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-      />
-      <h1>
-        Wish you smile!
-      </h1>
+    
+      <h1>Wish you smile!</h1>
    
-    </div>
-
- 
   </Layout>
 )
 

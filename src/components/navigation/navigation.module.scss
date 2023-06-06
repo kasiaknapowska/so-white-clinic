@@ -1,0 +1,16 @@
+@import "../../scss/variables";
+
+.nav {
+    display: flex;
+    gap: $space3;
+    text-transform: uppercase;
+    a {
+        font-weight: 500;
+        &:hover {
+            color: $colorPrimary;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: $space2;
+        }
+    }
+}

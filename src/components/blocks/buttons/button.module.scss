@@ -1,18 +1,31 @@
 @import "../../../scss/variables";
 
 .btnPrimary {
-    display: block;
-    background-color: $colorSecondary;
-    color: white;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: $btnPadding;
-    border-radius: $borderRadius;
+  display: block;
+  background-color: $colorSecondary;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: $btnPadding;
+  border-radius: $borderRadius;
+  // width: 130px;
+  // &:before {
+  //   content: attr(data-text);
+  //   width: 100%;
+  //   position: absolute;
+  //   transform: translate(0, 0px);
+  //   transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  // }
+  // &:hover,
+  // &:focus &:before {
+  //   opacity: 0;
+  //   transform: translate(0, 20px);
+  // }
 
-    .icon {
-        height: 1rem;
-        position: relative;
-        top: -2px;
-        left: -$space2;
-    }
+  .icon {
+    height: 1rem;
+    position: relative;
+    top: -2px;
+    left: -$space2;
+  }
 }

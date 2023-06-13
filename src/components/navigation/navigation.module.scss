@@ -1,6 +1,9 @@
 @import "../../scss/variables";
 
 .nav {
+    @media screen and (max-width: "1099px") {
+        display: none;
+    }
     display: flex;
     gap: $space3;
     text-transform: uppercase;

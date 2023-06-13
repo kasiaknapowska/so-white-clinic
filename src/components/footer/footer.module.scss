@@ -1,0 +1,9 @@
+@import "../../scss/variables";
+
+.footer {
+    background-color: $colorPrimary;
+    color: white;
+    // position: relative;
+    // z-index: 9;
+    padding: $space6 0;
+}

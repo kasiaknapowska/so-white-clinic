@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import "./navigation.module.scss"
 import { nav, navOpen } from "./navigation.module.scss"
-import Hamburger from "../blocks/hamburger/hamburger"
+import Hamburger from "../../elements/hamburger/hamburger"
 
 
 const Navigation = ({ links }) => {

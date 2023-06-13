@@ -17,7 +17,26 @@ body {
       outline-width: 0;
     }
   }
-
+h1 {
+  font-size: $extraLarge;
+  margin-bottom: $space5;
+}
+h2 {
+  font-size: $large;
+  margin-bottom: $space4;
+}
+h3 {
+  font-size: $mediumlarge;
+  margin-bottom: $space3;
+}
+h4 {
+  font-size: $extraLarge;
+  margin-bottom: $space5;
+}
+small {
+  display: block;
+  margin-top: 5rem;
+}
   .container {
     width: 90%;
     margin: 0 auto;
@@ -29,4 +48,11 @@ body {
       max-width: $sizeContent;
     }
   }
+  
+.icon {
+  position: relative;
+  top: -2px;
+  // left: -$space2;  
+  margin-right: $space2;
+}
 }

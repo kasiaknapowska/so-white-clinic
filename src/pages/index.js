@@ -19,7 +19,7 @@ const IndexPage = () => (
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt=""
-        style={{position: "fixed", bottom: "0", right: "0", height: "85vh"}}
+        style={{position: "fixed", bottom: "0", right: "0", height: "calc(100vh - 85px)"}}
       />
    
   </Layout>

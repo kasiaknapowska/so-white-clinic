@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import { Link } from "gatsby"
 
 import "./navigation.module.scss"
-import { nav } from "./navigation.module.scss"
+import { nav, navOpen } from "./navigation.module.scss"
 import Hamburger from "../blocks/hamburger/hamburger"
 
 
@@ -15,7 +15,7 @@ const Navigation = ({ links }) => {
   return (
     <>
       <Hamburger onHamburgerClick={onHamburgerClick} isMenuOpen={isMenuOpen}/>
-      <nav className={nav}>
+      <nav className={`${!isMenuOpen && nav} ${isMenuOpen && navOpen}`}>
         {links.map(link => (
           <Link to={link.url} key={link.url}>{link.label}</Link>
         ))}

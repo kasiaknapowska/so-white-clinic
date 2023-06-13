@@ -9,7 +9,7 @@ import { navLinks } from "../../data/links";
 import { contact } from "../../data/contact";
 import Button from "../blocks/buttons/button";
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
     <div className="container">
     <Link to="/">
@@ -24,8 +24,7 @@ const Header = ({ siteTitle }) => (
       />
     </Link>
     <Navigation links={navLinks}/>
-    <Button label="Zadzwoń teraz" link={`tel:${contact.phone}`} withIcon/>
-    {/* <p>{siteTitle}</p> */}
+    <Button label="Zadzwoń teraz" link={`tel:${contact.phone}`} type="callUsBtn" withIcon/>
     {/* <img alt="so white clinic logo" width={200} src={logo} /> */}
     </div>
   </header>

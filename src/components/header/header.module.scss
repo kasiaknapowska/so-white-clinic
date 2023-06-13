@@ -1,13 +1,15 @@
 @import "../../scss/variables";
 
 header {
-    position: fixed;
-    z-index: 10;
-    background-color: white;
-    width: 100%;
-    div {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+ 
 }

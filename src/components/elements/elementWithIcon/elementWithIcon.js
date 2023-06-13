@@ -3,7 +3,7 @@ import PhoneIcon from "../../../images/icons/icon-phone-white.svg"
 import MailIcon from "../../../images/icons/icon-mail-white.svg"
 import HomeIcon from "../../../images/icons/icon-home-white.svg"
 
-const ContactElementWithIcon = ({ link, label, type }) => {
+const ElementWithIcon = ({ link, label, type }) => {
   return (
     <a href={link}>
       <img
@@ -18,4 +18,4 @@ const ContactElementWithIcon = ({ link, label, type }) => {
   )
 }
 
-export default ContactElementWithIcon
+export default ElementWithIcon

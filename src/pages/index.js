@@ -11,7 +11,7 @@ import "../scss/_index.scss"
 const IndexPage = () => (
   <Layout>
     
-      <h1>Wish you smile!</h1>
+      <div className="container"><h1>Wish you smile!</h1></div>
       <StaticImage
         src="../images/hero.png"
         loading="eager"

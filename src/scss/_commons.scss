@@ -9,6 +9,8 @@ body {
   font-family: $montserrat;
   color: $colorNeutralDark;
   font-size: $medium;
+  background-color: $colorPrimaryTransparent;
+  padding-top: calc(85px + $space6 * 2);
   a {
     text-decoration: none;
     color: inherit;
@@ -19,7 +21,7 @@ body {
   }
 h1 {
   font-size: $extraLarge;
-  margin-bottom: $space5;
+  margin-bottom: calc($space6 * 2);
 }
 h2 {
   font-size: $large;

@@ -8,12 +8,11 @@
   padding: 0;
 }
 body {
-  // position: relative;
   font-family: $montserrat;
   color: $colorNeutralDark;
   font-size: $medium;
   background-color: $colorPrimaryTransparent;
-  padding-top: calc(85px + $space6 * 2);
+  padding-top: calc(110px + $space6 * 2);
   a {
     text-decoration: none;
     color: inherit;
@@ -22,32 +21,38 @@ body {
       outline-width: 0;
     }
   }
-h1 {
-  font-size: $extraLarge;
-  margin-bottom: calc($space6 * 2);
-}
-h2 {
-  font-size: $extraLarge;
-  margin-bottom: $space4;
-}
-h3 {
-  font-size: $mediumlarge;
-  margin-bottom: $space3;
-}
-h4 {
-  font-size: $extraLarge;
-  margin-bottom: $space5;
-}
-button[type="submit"] {
-  @extend %button;
-  border: none;
-  min-height: 46px;
-  margin-top: $space4;
-}
-small {
-  display: block;
-  margin-top: 5rem;
-}
+  h1 {
+    font-size: $extraLarge;
+    margin-bottom: calc($space6 * 2);
+  }
+  h2 {
+    font-size: $extraLarge;
+    margin-bottom: $space5;
+  }
+  h3 {
+    font-size: $mediumlarge;
+    margin-bottom: $space3;
+  }
+  h4 {
+    font-size: $extraLarge;
+    margin-bottom: $space5;
+  }
+  p {
+    font-size: $mediumlarge;
+    line-height: 160%;
+    margin-bottom: $space3;
+  }
+  button[type="submit"] {
+    @extend %button;
+    border: none;
+    min-height: 46px;
+    margin-top: $space4;
+  }
+  small {
+    display: block;
+    margin-top: 5rem;
+  }
+
   .container {
     width: 90%;
     margin: 0 auto;
@@ -59,12 +64,16 @@ small {
       max-width: $sizeContent;
     }
   }
-  
-.icon {
-  position: relative;
-  top: -2px;
-  // left: -$space2;  
-  margin-right: $space2;
-}
-
+  .dflex50 {
+    @media screen and ($desktopS) {
+      display: flex;
+      gap: calc($space6 * 2);
+    }
+  }
+  .icon {
+    position: relative;
+    top: -2px;
+    // left: -$space2;
+    margin-right: $space2;
+  }
 }

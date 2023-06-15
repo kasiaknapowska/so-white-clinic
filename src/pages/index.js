@@ -10,6 +10,7 @@ import FormSection from "../components/sections/formSection/formSection"
 
 const IndexPage = () => (
   <Layout>
+    <section className="topSection">
     <div className="container">
       <h1>Wish you smile!</h1>
     </div>
@@ -27,6 +28,7 @@ const IndexPage = () => (
         height: "calc(100vh - 85px)",
       }}
     />
+    </section>
     <FormSection />
   </Layout>
 )

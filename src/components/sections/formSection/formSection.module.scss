@@ -1,9 +1,7 @@
 @import "../../../scss/variables";
 
 .formSection {
-    // min-height: 100vh;
     position: relative;
     z-index: 9;
     background-color: white;
-    padding: calc($space6 * 2) 0;
 }

@@ -5,16 +5,18 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import GoogleMap from "../components/elements/googleMap/googleMap"
 
-const SecondPage = () => (
+const JakDojechac = () => (
   <Layout>
+    <section className="topSection">
     <div className="container">
       <h1>Jak do nas dojechać?</h1>
     </div>
+    </section>
     <GoogleMap />
     {/* <Link to="/">Wróć do strony głównej</Link> */}
   </Layout>
 )
 
-export const Head = () => <Seo title="Page two" />
+export const Head = () => <Seo title="Jak do nas dojechać" />
 
-export default SecondPage
+export default JakDojechac

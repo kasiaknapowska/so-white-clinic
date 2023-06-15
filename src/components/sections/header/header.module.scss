@@ -6,14 +6,17 @@ header {
   z-index: 10;
   background-color: white;
   width: 100%;
-  box-shadow: 0 0 18px 0 $colorNeutralLight;
+  box-shadow: 0 0 16px 0 $colorNeutralVeryLight;
   div {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
- .logo {
-  width: 12rem;
- }
+  .logo {
+    @media screen and ($mobile) {
+     max-width: 10rem;
+    }
+    width: 12rem;
+  }
 }

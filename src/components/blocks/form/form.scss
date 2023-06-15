@@ -4,13 +4,12 @@ form {
   flex-direction: column;
   gap: $space2;
   width: 90%;
-  margin: $space4 0;
   max-width: 30rem;
 }
 
 label {
   text-transform: uppercase;
-  font-size: $mediumlarge;
+  font-size: $medium;
   line-height: 150%;
   color: $colorNeutralDark;
   &:focus-within {

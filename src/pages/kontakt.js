@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Form from "../components/blocks/form/form"
 import Contact from "../components/blocks/contact/contact"
+import Space from "../components/elements/space/space"
 
 const Kontakt = () => (
   <Layout>
@@ -17,6 +18,7 @@ const Kontakt = () => (
             dzieli Cię tylko jeden krok!
           </p>
          <Contact/>
+         <Space/>
           <h2>Godziny otwarcia</h2>
           <p>Poniedziałek - piątek:&nbsp;&nbsp;&nbsp;8:00 - 20:00</p>
         </div>

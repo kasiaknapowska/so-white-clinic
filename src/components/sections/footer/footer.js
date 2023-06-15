@@ -1,6 +1,7 @@
 import React from "react"
 import {footer} from "./footer.module.scss"
 import Contact from "../../blocks/contact/contact"
+import Space from "../../elements/space/space"
 
 const Footer = () => {
   return (
@@ -8,6 +9,7 @@ const Footer = () => {
       <div className="container">
         <h4>So white Clinic</h4>
         <Contact color="white"/>
+        <Space/>
         <small>
         © {new Date().getFullYear()} &middot; Built by KKnapowska with
         {` `}
@@ -18,6 +20,7 @@ const Footer = () => {
         >
           Gatsby
         </a>
+        
         </small>
       </div>
     </footer>

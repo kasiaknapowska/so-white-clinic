@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className={footer}>
       <div className="container">
         <h4>So white Clinic</h4>
-        <Contact/>
+        <Contact color="white"/>
         <small>
         © {new Date().getFullYear()} &middot; Built by KKnapowska with
         {` `}

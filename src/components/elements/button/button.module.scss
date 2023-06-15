@@ -1,13 +1,8 @@
+@use "../../../scss/placeholders";
 @import "../../../scss/variables";
 
 .btnPrimary {
-  display: block;
-  background-color: $colorSecondary;
-  color: white;
-  font-weight: 500;
-  text-transform: uppercase;
-  padding: $btnPadding;
-  border-radius: $borderRadius;
+  @extend %button;
   // width: 130px;
   // &:before {
   //   content: attr(data-text);

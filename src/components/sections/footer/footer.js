@@ -1,6 +1,6 @@
 import React from "react"
 import {footer} from "./footer.module.scss"
-import Contact from "../blocks/contact/contact"
+import Contact from "../../blocks/contact/contact"
 
 const Footer = () => {
   return (

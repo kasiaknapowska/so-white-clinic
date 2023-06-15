@@ -3,6 +3,7 @@ $colorPrimary: #4BC8E6;
 $colorPrimaryTransparent: rgb(75, 200, 230, 0.1);
 $colorSecondary: #6EC846;
 $colorAccent: #255faa;
+$colorError: #e71a5b;
 $colorNeutral: #7E7E7E;
 $colorNeutralDark: #343434;
 $colorNeutralLight: #CECECE;
@@ -20,11 +21,12 @@ $sizeGutter: $space4;
 $sizeGap: $space6;
 
 //font sizes
-$small: 10px;
+$small: 12px;
 $medium: 14px;
 $mediumlarge: 16px;
 $large: 20px;
 $extraLarge: 32px;
+$xxLarge: 52px;
 
 //buttons
 $btnPadding: 0.75rem 1.75rem;

@@ -1,0 +1,106 @@
+@import "../../../scss/variables";
+form {
+  display: flex;
+  flex-direction: column;
+  gap: $space2;
+  width: 90%;
+  margin: $space4 0;
+  max-width: 30rem;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: $mediumlarge;
+  line-height: 150%;
+  color: $colorNeutralDark;
+  &:focus-within {
+    color: $colorPrimary;
+  }
+}
+
+input,
+textarea {
+  border: 1px solid $colorNeutralLight;
+  outline: none;
+  color: $colorNeutralDark;
+  font-size: $medium;
+  font-family: $montserrat;
+  margin-top: $space1;
+  margin-bottom: $space3;
+  background-color: white;
+
+  &::placeholder {
+    color: $colorNeutralLight;
+    font-size: $mediumlarge;
+    font-family: $montserrat;
+  }
+
+  &:focus {
+    border-color: $colorPrimary;
+  }
+}
+input {
+  height: 2.5rem;
+  padding: 0 $space2;
+  width: 100%;
+}
+textarea {
+  min-height: 6rem;
+  width: 100%;
+  padding: $space2;
+  resize: none;
+  display: block;
+}
+
+.checkbox {
+  cursor: pointer;
+  display: flex;
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  & > div {
+    font-size: $small;
+
+    line-height: 120%;
+    text-transform: initial;
+  }
+  &:focus-within {
+    color: $colorNeutralDark;
+  }
+
+  span {
+    width: $space3;
+    height: $space3;
+    flex-shrink: 0;
+    flex-basis: $space3;
+    border: 1px solid $colorNeutralLight;
+    outline: none;
+    cursor: pointer;
+    margin-right: $space3;
+  }
+
+  input:checked + span {
+    background-color: $colorPrimary;
+  }
+}
+
+span.errorMessage,
+span.successMessage {
+  display: inline-block;
+  border: none;
+  width: auto;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+  font-size: $medium;
+}
+span.errorMessage {
+  color: $colorError;
+}
+span.successMessage {
+  color: $colorSecondary;
+}

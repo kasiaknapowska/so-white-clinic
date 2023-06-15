@@ -4,10 +4,10 @@ import { StaticImage } from "gatsby-plugin-image"
 // import logo from "../../images/logo/swc-logo.png"
 
 import "./header.module.scss";
-import Navigation from "../blocks/navigation/navigation";
-import { navLinks } from "../../data/links";
-import { contact } from "../../data/contact";
-import Button from "../elements/button/button";
+import Navigation from "../../blocks/navigation/navigation";
+import { navLinks } from "../../../data/links";
+import { contact } from "../../../data/contact";
+import Button from "../../elements/button/button";
 
 const Header = () => (
   <header>

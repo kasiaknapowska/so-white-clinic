@@ -1,11 +1,14 @@
+@use "./placeholders";
 @import "./reset";
 @import "./variables";
 
 * {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 body {
-  position: relative;
+  // position: relative;
   font-family: $montserrat;
   color: $colorNeutralDark;
   font-size: $medium;
@@ -24,7 +27,7 @@ h1 {
   margin-bottom: calc($space6 * 2);
 }
 h2 {
-  font-size: $large;
+  font-size: $extraLarge;
   margin-bottom: $space4;
 }
 h3 {
@@ -34,6 +37,12 @@ h3 {
 h4 {
   font-size: $extraLarge;
   margin-bottom: $space5;
+}
+button[type="submit"] {
+  @extend %button;
+  border: none;
+  min-height: 46px;
+  margin-top: $space4;
 }
 small {
   display: block;
@@ -57,4 +66,5 @@ small {
   // left: -$space2;  
   margin-right: $space2;
 }
+
 }

@@ -3,8 +3,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 // import logo from "../../images/logo/swc-logo.png"
 
-import "./header.module.scss";
-import {logo} from "./header.module.scss"
+import {header, logo} from "./header.module.scss"
 import Navigation from "../../blocks/navigation/navigation";
 import { navLinks } from "../../../data/links";
 import { contact } from "../../../data/contact";
@@ -12,7 +11,7 @@ import Button from "../../elements/button/button";
 import Logo from "../../../images/logo/swc-logo.svg"
 
 const Header = () => (
-  <header>
+  <header className={header}>
     <div className="container">
     <Link to="/">
       {" "}

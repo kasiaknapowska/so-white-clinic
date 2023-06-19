@@ -1,6 +1,6 @@
 @import "../../../scss/variables";
 
-header {
+.header {
   position: fixed;
   top: 0;
   z-index: 10;
@@ -13,10 +13,11 @@ header {
     justify-content: space-between;
   }
 
-  .logo {
+ 
+}
+ .logo {
     @media screen and ($mobile) {
      max-width: 10rem;
     }
     width: 12rem;
   }
-}

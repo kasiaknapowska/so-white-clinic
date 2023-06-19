@@ -3,24 +3,12 @@
 
 .btnPrimary {
   @extend %button;
-  // width: 130px;
-  // &:before {
-  //   content: attr(data-text);
-  //   width: 100%;
-  //   position: absolute;
-  //   transform: translate(0, 0px);
-  //   transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
-  // }
-  // &:hover,
-  // &:focus &:before {
-  //   opacity: 0;
-  //   transform: translate(0, 20px);
-  // }
 
 }
-@media screen and (max-width: "1100px") {
+@media screen and (max-width: "1200px") {
   .callUsBtn {
     position: fixed;
+    z-index: 20;
     bottom: 0;
     left: 0;
     width: 100vw;

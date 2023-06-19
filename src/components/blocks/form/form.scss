@@ -3,8 +3,8 @@ form {
   display: flex;
   flex-direction: column;
   gap: $space2;
-  width: 90%;
-  max-width: 30rem;
+  width: 100%;
+  // max-width: 30rem;
 }
 
 label {

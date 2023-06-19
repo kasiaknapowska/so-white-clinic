@@ -2,6 +2,16 @@
 @import "./reset";
 @import "./variables";
 
+
+@font-face {
+  font-family: 'Tahu';
+  src: url('../static/fonts/tahu-webfont.woff2') format('woff2'),
+       url('../static/fonts/tahu-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 * {
   scroll-behavior: smooth;
   margin: 0;
@@ -24,6 +34,14 @@ body {
   h1 {
     font-size: $extraLarge;
     margin-bottom: $space5;
+    position: relative;
+    span.decor {
+      font-family: $tahu;
+      position: absolute;
+      font-size: calc($extraLarge * 4);
+      // top: 5rem;
+      left: 3rem;
+    }
   }
   h2 {
     font-size: $extraLarge;
@@ -41,6 +59,9 @@ body {
     font-size: $mediumlarge;
     line-height: 160%;
     margin-bottom: $space3;
+    &.narrow {
+      max-width: 24rem;
+    }
   }
   button[type="submit"] {
     @extend %button;

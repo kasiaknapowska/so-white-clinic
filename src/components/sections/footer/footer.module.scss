@@ -4,7 +4,8 @@
     background-color: $colorPrimary;
     color: white;
     position: relative;
-    z-index: 10;
+    z-index: 0;
     padding: $space6 0;
     margin: 0;
+    padding-bottom: calc($space6 * 2);
 }

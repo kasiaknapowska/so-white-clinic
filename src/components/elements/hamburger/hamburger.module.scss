@@ -1,13 +1,10 @@
 
 @import "../../../scss/variables";
 .hamburger {
-  @media screen and ($desktop) {
-    display: none;
-  }
+ 
+   @media screen and (max-width: 1200px) {
     width: 2.25rem;
     height: 2.5rem;
-    // position: absolute;
-    // right: 5%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -74,4 +71,5 @@
         left: 50%;
       }
     }
+   }
   }

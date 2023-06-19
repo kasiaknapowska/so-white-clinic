@@ -1,0 +1,26 @@
+@import "../../../scss/variables";
+
+.buttonWhite {
+  display: block;
+  background-color: $colorWhiteTransparent90;
+  border-radius: $borderRadius;
+  color: $colorNeutralDark;
+  width: 100px;
+  height: 100px;
+  padding: $space4;
+  font-size: $mediumlarge;
+  font-weight: 600;
+  line-height: 150%;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: $borderRadius 0 $borderRadius 0;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-color: $colorPrimary;
+  }
+}

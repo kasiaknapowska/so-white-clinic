@@ -22,7 +22,7 @@ body {
   color: $colorNeutralDark;
   font-size: $medium;
   background-color: $colorPrimaryTransparent;
-  // padding-top: 110px;
+
   a {
     text-decoration: none;
     color: inherit;
@@ -39,7 +39,6 @@ body {
       font-family: $tahu;
       position: absolute;
       font-size: calc($extraLarge * 4);
-      // top: 5rem;
       left: 3rem;
     }
   }

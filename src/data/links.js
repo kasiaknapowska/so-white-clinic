@@ -6,7 +6,7 @@ export const navLinks = [
     { label: "kontakt", url: "/kontakt" },
   ]
 
-  export const heroLinks = [
+  export const heroWhiteButtonsLinks = [
     {label: "Prosta droga do Hollywood smile", url: "/o-nas"},
     {label: "Białe i bielsze", url: "/wybielanie"},
     {label: "Invisalign Go korekta wad zgryzu", url: "/ortodoncja"},

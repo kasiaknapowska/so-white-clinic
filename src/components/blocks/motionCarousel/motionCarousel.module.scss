@@ -1,0 +1,17 @@
+@import "../../../scss/variables";
+.wrapper {
+    display: flex;
+    width: 30%;
+    overflow: hidden;
+    .innerWrapper {
+      display: inline-flex;
+      gap: $space3;
+      div {
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      background-color: red;
+      pointer-events: none;
+      }
+    }
+  }

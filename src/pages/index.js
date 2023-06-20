@@ -1,6 +1,5 @@
 import * as React from "react"
 import "../scss/_commons.scss"
-// import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
@@ -9,7 +8,12 @@ import Seo from "../components/seo"
 import FormSection from "../components/sections/formSection/formSection"
 import Space from "../components/elements/space/space"
 import Button from "../components/elements/button/button"
-import ButtonWhite from "../components/elements/buttonWhite/buttonWhite"
+
+
+import { heroWhiteButtonsLinks } from "../data/links"
+import MotionCarousel from "../components/blocks/motionCarousel/motionCarousel"
+import ButtonWhite from '../components/elements/buttonWhite/buttonWhite'
+
 
 const IndexPage = () => (
   <Layout>
@@ -46,7 +50,7 @@ const IndexPage = () => (
     </section>
  
       <div className="container">
-      <ButtonWhite label="Prosta droga do Hollywood smile" url="" />
+      <MotionCarousel data={heroWhiteButtonsLinks}/>
       </div>
 
     <FormSection />

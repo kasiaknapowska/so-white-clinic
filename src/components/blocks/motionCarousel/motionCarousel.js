@@ -18,13 +18,13 @@ const MotionCarousel = ({ data }) => {
         className={wrapper}
         ref={carouselWrapper}
         whileTap={{ cursor: "grabbing" }}
-        // initial={{ opacity: 0 }}
-        // whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
       >
         <motion.div
           className={innerWrapper}
           drag="x"
-          dragConstraints={{ right: 0, left: -width - 50 }}
+          dragConstraints={{ right: 0, left: -width - 20 }}
           
         >
           {data.map((el, i) => {

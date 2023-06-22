@@ -7,12 +7,12 @@ import Seo from "../components/seo"
 
 import FormSection from "../components/sections/formSection/formSection"
 import Space from "../components/elements/space/space"
-import Button from "../components/elements/button/button"
+import LinkButton from "../components/elements/button/button"
 
 
 import { heroWhiteButtonsLinks } from "../data/links"
 import MotionCarousel from "../components/blocks/motionCarousel/motionCarousel"
-import ButtonWhite from '../components/elements/buttonWhite/buttonWhite'
+
 
 
 const IndexPage = () => (
@@ -45,7 +45,7 @@ const IndexPage = () => (
         jest on teraz osiągalny również dla Ciebie!
       </p>
       <Space />
-      <Button label="Chcę mieć Hollywood smile" link="/kontakt" />
+      <LinkButton label="Chcę mieć Hollywood smile" url="/kontakt" />
       </div>
     </section>
  

@@ -14,7 +14,7 @@ import { heroTextCardsLinks, offerTextLinks } from "../data/links"
 import MotionCarousel from "../components/blocks/motionCarousel/motionCarousel"
 import Reveal from "../components/effects/reveal/reveal"
 import TextCard from "../components/blocks/textCard/textCard"
-import OlBullet from "../components/elements/bullets/olBullet"
+import OlBullet from "../components/elements/bullets/customOL"
 
 const IndexPage = () => (
   <Layout>
@@ -67,11 +67,14 @@ const IndexPage = () => (
     </div>
     <section>
       <div className="container">
+        <Reveal>
         <h2>
           Twoja droga do <span className="decor">Hollywood smile</span>
         </h2>
+        </Reveal>
         <Space />
         <Space />
+        <Reveal>
         <p className="narrow">
           Chcesz wiedzieć, jakie zabiegi stomatologiczne pozwolą Ci osiągnąć
           pożądany Hollywood Smile?
@@ -82,6 +85,7 @@ const IndexPage = () => (
           stomatologicznej So White Clinic.
         </p>
         <p>Kliknij i dowiedz się więcej!</p>
+        </Reveal>
       </div>
       <div className="container">
         <ol>

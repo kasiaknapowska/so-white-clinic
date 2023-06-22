@@ -23,7 +23,7 @@ body {
   color: $colorNeutralDark;
   font-size: $small;
   background-color: $colorPrimaryTransparent;
-
+  overflow-x: hidden;
   a {
     text-decoration: none;
     color: inherit;

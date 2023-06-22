@@ -33,6 +33,22 @@ const IndexPage = () => (
         zIndex: "-1",
       }}
     />
+    <StaticImage
+      src="../images/logo/swc-icon-white.png"
+      loading="eager"
+      width={1080}
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+      alt=""
+      style={{
+        position: "absolute",
+        top: "200px",
+        right: "-360px",
+        width: "1080px",
+        overflow: "hidden",
+        zIndex: "-2",
+      }}
+    />
     <section className="topSection">
       <div className="container">
         <Reveal>

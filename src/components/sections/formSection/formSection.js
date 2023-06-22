@@ -7,7 +7,7 @@ const FormSection = () => {
     <section className={formSection}>
       <div className="container dflex50">
         <div>
-          <h2>Skontaktuj się z nami!</h2>
+          <h3>Skontaktuj się z nami!</h3>
           <p>Zadaj nam pytanie lub zostaw numer telefonu.</p>
           <p>
             Nasze recepcjonistki skontaktują się z Tobą, by omówić Twoją drogę do

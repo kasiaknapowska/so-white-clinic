@@ -44,15 +44,23 @@ body {
     }
   }
   h2 {
-    font-size: $extraLarge;
+    font-size: $large;
     margin-bottom: $space5;
+    position: relative;
+    span.decor {
+      font-family: $tahu;
+      position: absolute;
+      font-size: $xxLarge;
+      top: 3rem;
+      left: 3rem;
+    }
   }
   h3 {
-    font-size: $mediumlarge;
-    margin-bottom: $space3;
+    font-size: $large;
+    margin-bottom: $space5;
   }
   h4 {
-    font-size: $extraLarge;
+    font-size: $large;
     margin-bottom: $space5;
   }
   p {
@@ -96,7 +104,6 @@ section {
   .icon {
     position: relative;
     top: -2px;
-    // left: -$space2;
     margin-right: $space3;
     width: 1.2rem;
   }

@@ -1,0 +1,16 @@
+@import "../../../scss/variables";
+
+.olBullet {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: $borderRadius;
+  width: 32px;
+  height: 32px;
+  background-color: $colorSecondary;
+  font-size: $medium;
+  font-weight: 600;
+  color: white;
+
+}

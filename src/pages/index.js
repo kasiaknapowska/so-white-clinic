@@ -8,11 +8,13 @@ import Seo from "../components/seo"
 import FormSection from "../components/sections/formSection/formSection"
 import Space from "../components/elements/space/space"
 import ButtonLink from "../components/elements/buttons/buttonLink"
+import TextArrowLink from "../components/elements/buttons/textArrowLink"
 
-import { heroTextCardsLinks } from "../data/links"
+import { heroTextCardsLinks, offerTextLinks } from "../data/links"
 import MotionCarousel from "../components/blocks/motionCarousel/motionCarousel"
 import Reveal from "../components/effects/reveal/reveal"
 import TextCard from "../components/blocks/textCard/textCard"
+import OlBullet from "../components/elements/bullets/olBullet"
 
 const IndexPage = () => (
   <Layout>
@@ -56,14 +58,11 @@ const IndexPage = () => (
 
     <div className="container">
       <Reveal>
-      <MotionCarousel>
-         {heroTextCardsLinks.map((el, i) => {
-          return (
-            <TextCard key={el.label + i} label={el.label} url={el.url} />
-          )
-        })}
-      </MotionCarousel>
-   
+        <MotionCarousel>
+          {heroTextCardsLinks.map((el, i) => {
+            return <TextCard key={el.label + i} label={el.label} url={el.url} />
+          })}
+        </MotionCarousel>
       </Reveal>
     </div>
     <section>
@@ -83,6 +82,19 @@ const IndexPage = () => (
           stomatologicznej So White Clinic.
         </p>
         <p>Kliknij i dowiedz się więcej!</p>
+      </div>
+      <div className="container">
+        <ol>
+          {offerTextLinks.map((el, i) => {
+            return (
+              <li>
+                <Reveal>
+                  <TextArrowLink url={el.url} label={el.label} i={i}/>
+                </Reveal>{" "}
+              </li>
+            )
+          })}
+        </ol>
       </div>
     </section>
     <FormSection />

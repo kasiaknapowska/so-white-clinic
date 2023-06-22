@@ -3,7 +3,6 @@
 
 .btnPrimary {
   @extend %button;
-
 }
 @media screen and (max-width: "1200px") {
   .callUsBtn {
@@ -13,7 +12,7 @@
     left: 0;
     width: 100vw;
     border-radius: 0;
-    font-size: $mediumlarge;
+    font-size: $medium;
     padding: $btnPaddingLarge;
     text-align: center;
     padding-left: 0;
@@ -37,16 +36,43 @@
   height: 44px;
   background-color: $colorPrimary;
   border-color: white;
+  .arrow {
+    position: absolute;
+    right: 18px;
+    bottom: 16px;
+  }
+  &:hover {
+    background-color: $colorSecondary;
+  }
+  @media screen and ($desktopS) {
+    width: 32px;
+    height: 32px;
+    .arrow {
+      right: 13px;
+      bottom: 10px;
+    }
+  }
 }
 .textArrowLink {
   border-color: $colorNeutralDark;
+  position: relative;
+  font-size: $medium;
+  font-weight: 600;
+  margin: $space5 0;
+  display: flex;
+  align-items: center;
+  gap: $space3;
+  &:hover {
+    color: $colorPrimary;
+    border-color: $colorPrimary;
+    span:first-child {
+      background-color: $colorPrimary;
+    }
+  }
 }
 
-  .arrow {
-  display: block;
-  position: absolute;
-  right: 18px;
-  bottom: 16px;
+.arrow {
+  display: inline-block;
   width: 12px;
   height: 12px;
   transform: rotate(45deg);

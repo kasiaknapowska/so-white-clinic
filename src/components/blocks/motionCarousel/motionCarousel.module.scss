@@ -1,17 +1,16 @@
 @import "../../../scss/variables";
 .wrapper {
-    display: flex;
-    width: 30%;
-    overflow: hidden;
-    .innerWrapper {
-      display: inline-flex;
-      gap: $space3;
-      div {
-      width: 100px;
-      height: 100px;
-      overflow: hidden;
-      background-color: red;
-      pointer-events: none;
-      }
-    }
+  display: flex;
+  width: 100%;
+  max-width: 540px;
+  overflow: hidden;
+  margin-bottom: calc($space6 * 2);
+  // -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  // mask-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 97%, transparent);
+  mask-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 97%, transparent);
+  .innerWrapper {
+    display: inline-flex;
+    gap: $space3;
   }
+}

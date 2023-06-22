@@ -14,26 +14,26 @@ const MotionCarousel = ({ data }) => {
     }, [])
   
     return (
-      <motion.section
+      <motion.div
         className={wrapper}
         ref={carouselWrapper}
         whileTap={{ cursor: "grabbing" }}
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        // initial={{ opacity: 0 }}
+        // whileInView={{ opacity: 1 }}
       >
         <motion.div
           className={innerWrapper}
           drag="x"
-          dragConstraints={{ right: 0, left: -width }}
+          dragConstraints={{ right: 0, left: -width - 50 }}
           
         >
           {data.map((el, i) => {
             return (
-              <ButtonWhite label={el.label} url={el.url} onPointerDownCapture={e => e.stopPropagation()}/>
+              <ButtonWhite key={el.label + i} label={el.label} url={el.url} />
             )
           })}
         </motion.div>
-      </motion.section>
+      </motion.div>
     )
 }
 

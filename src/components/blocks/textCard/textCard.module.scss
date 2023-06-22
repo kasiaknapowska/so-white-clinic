@@ -1,0 +1,15 @@
+@import "../../../scss/variables";
+
+.textCard {
+  display: block;
+  background-color: $colorWhiteTransparent90;
+  border-radius: $borderRadius;
+  color: $colorNeutralDark;
+  width: 140px;
+  height: 140px;
+  padding: $space3;
+  font-size: $mediumlarge;
+  font-weight: 600;
+  line-height: 150%;
+  position: relative;
+}

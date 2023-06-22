@@ -1,11 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 import { btnPrimary} from "./button.module.scss"
 
 
-const LinkButton = ({ label, url }) => {
+const ButtonLink = ({ label, url }) => {
   return (
    <Link to={url} className={btnPrimary}>{label}</Link>
   )
 }
 
-export default LinkButton
+export default ButtonLink

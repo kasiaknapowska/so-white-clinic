@@ -7,7 +7,7 @@ import {header, logo} from "./header.module.scss"
 import Navigation from "../../blocks/navigation/navigation";
 import { navLinks } from "../../../data/links";
 import { contact } from "../../../data/contact";
-import Button from "../../elements/button/button";
+import Button from "../../elements/buttons/button";
 import Logo from "../../../images/logo/swc-logo.svg"
 
 const Header = () => (

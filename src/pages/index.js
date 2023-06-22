@@ -7,12 +7,12 @@ import Seo from "../components/seo"
 
 import FormSection from "../components/sections/formSection/formSection"
 import Space from "../components/elements/space/space"
-import LinkButton from "../components/elements/button/button"
+import ButtonLink from "../components/elements/buttons/buttonLink"
 
-import { heroWhiteButtonsLinks } from "../data/links"
+import { heroTextCardsLinks } from "../data/links"
 import MotionCarousel from "../components/blocks/motionCarousel/motionCarousel"
 import Reveal from "../components/effects/reveal/reveal"
-import ButtonWhite from "../components/elements/buttonWhite/buttonWhite"
+import TextCard from "../components/blocks/textCard/textCard"
 
 const IndexPage = () => (
   <Layout>
@@ -49,7 +49,7 @@ const IndexPage = () => (
         </Reveal>
         <Space />
         <Reveal>
-          <LinkButton label="Chcę mieć Hollywood smile" url="/kontakt" />
+          <ButtonLink label="Chcę mieć Hollywood smile" url="/kontakt" />
         </Reveal>
       </div>
     </section>
@@ -57,9 +57,9 @@ const IndexPage = () => (
     <div className="container">
       <Reveal>
       <MotionCarousel>
-         {heroWhiteButtonsLinks.map((el, i) => {
+         {heroTextCardsLinks.map((el, i) => {
           return (
-            <ButtonWhite key={el.label + i} label={el.label} url={el.url} />
+            <TextCard key={el.label + i} label={el.label} url={el.url} />
           )
         })}
       </MotionCarousel>

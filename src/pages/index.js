@@ -14,7 +14,7 @@ import { heroTextCardsLinks, offerTextLinks } from "../data/links"
 import MotionCarousel from "../components/blocks/motionCarousel/motionCarousel"
 import Reveal from "../components/effects/reveal/reveal"
 import TextCard from "../components/blocks/textCard/textCard"
-import OlBullet from "../components/elements/bullets/customOL"
+
 
 const IndexPage = () => (
   <Layout>

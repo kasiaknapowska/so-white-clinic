@@ -21,6 +21,7 @@ const Kontakt = () => (
          <Space/>
           <h2>Godziny otwarcia</h2>
           <p>Poniedziałek - piątek:&nbsp;&nbsp;&nbsp;8:00 - 20:00</p>
+          <Space/>
         </div>
         <Form />
       </div>

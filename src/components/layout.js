@@ -10,6 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./sections/header/header"
 import Footer from "./sections/footer/footer"
+import ScrollToTop from "./elements/scrollToTop/scrollToTop"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,10 +25,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <ScrollToTop/>
       <Header siteTitle={data.site.siteMetadata?.title || `So white clinic`} />
 
       <main>{children}</main>
       <Footer />
+      
     </>
   )
 }

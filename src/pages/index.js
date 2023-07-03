@@ -110,7 +110,7 @@ const IndexPage = () => (
             return (
               <li>
                 <Reveal>
-                  <TextArrowLink url={el.url} label={el.label} i={i}/>
+                  <TextArrowLink url={`/leczenie/${el.url}`} label={el.label} i={i}/>
                 </Reveal>{" "}
               </li>
             )

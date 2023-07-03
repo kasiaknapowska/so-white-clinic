@@ -16,11 +16,11 @@ export const navLinks = [
   ]
 
   export const offerTextLinks = [
-    {label: "Higienizacja", url: "/leczenie/higiena"},
-    {label: "Wybielanie", url: "/leczenie/wybielanie"},
-    {label: "Prosta korekta zgryzu", url: "/leczenie/ortodoncja"},
-    {label: "Bonding & flow injection", url: "/leczenie/bonding"},
-    {label: "Licówki i korony", url: "/leczenie/licowki-i-korony"},
-    {label: "Usuwanie zębów", url: "/leczenie/usuwanie-zebow"},
-    {label: "Uzupełnianie braków implantami", url: "/leczenie/implanty"},
+    {label: "Higienizacja", url: "higiena"},
+    {label: "Wybielanie", url: "wybielanie"},
+    {label: "Prosta korekta zgryzu", url: "ortodoncja"},
+    {label: "Bonding & flow injection", url: "bonding"},
+    {label: "Licówki i korony", url: "licowki-i-korony"},
+    {label: "Usuwanie zębów", url: "usuwanie-zebow"},
+    {label: "Uzupełnianie braków implantami", url: "implanty"},
   ]

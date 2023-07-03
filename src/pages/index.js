@@ -44,8 +44,9 @@ const IndexPage = () => (
         position: "absolute",
         top: "200px",
         right: "-360px",
-        width: "1080px",
-        overflow: "hidden",
+        width: "70vw",
+        maxWidth: "1080px",
+        overflowX: "hidden",
         zIndex: "-2",
       }}
     />

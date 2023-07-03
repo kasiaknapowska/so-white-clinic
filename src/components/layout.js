@@ -25,9 +25,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <ScrollToTop/>
+      <ScrollToTop/>
       <Header siteTitle={data.site.siteMetadata?.title || `So white clinic`} />
-
       <main>{children}</main>
       <Footer />
       

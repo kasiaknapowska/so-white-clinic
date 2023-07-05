@@ -5,7 +5,10 @@ import Seo from "../../components/seo"
 import Space from "../../components/elements/space/space"
 import ButtonLink from "../../components/elements/buttons/buttonLink"
 
-const Wybielanie = () => (
+const Wybielanie = () =>  {
+
+
+  return (
   <Layout>
     <section className="topSection">
       <div className="container">
@@ -38,7 +41,9 @@ const Wybielanie = () => (
       </div>
     </section>
   </Layout>
-)
+  )
+  }
+
 
 export const Head = () => <Seo title="Wybielanie zębów" />
 

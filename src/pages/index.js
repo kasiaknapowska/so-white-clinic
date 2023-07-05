@@ -108,7 +108,7 @@ const IndexPage = () => (
         <ol>
           {offerTextLinks.map((el, i) => {
             return (
-              <li>
+              <li key={el.url + i}>
                 <Reveal>
                   <TextArrowLink url={`/leczenie/${el.url}`} label={el.label} i={i}/>
                 </Reveal>{" "}

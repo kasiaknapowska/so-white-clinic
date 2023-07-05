@@ -11,14 +11,16 @@
   font-style: normal;
 
 }
-
+:root {
+  scroll-behavior: auto !important;
+}
 * {
-  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
+  scroll-behavior: smooth;
   font-family: $montserrat;
   color: $colorNeutralDark;
   font-size: $small;

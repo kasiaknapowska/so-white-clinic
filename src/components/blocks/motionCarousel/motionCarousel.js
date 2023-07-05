@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useRef } from "react"
 import { motion } from "framer-motion"
-import { wrapper, innerWrapper } from "./motionCarousel.module.scss"
+import { wrapper, wrapperFull, innerWrapper } from "./motionCarousel.module.scss"
 
-const MotionCarousel = ({ children }) => {
+const MotionCarousel = ({ fullWidth, children }) => {
   const [width, setWidth] = useState(0)
   const wrapperRef = useRef(null)
 
@@ -12,7 +12,7 @@ const MotionCarousel = ({ children }) => {
 
   return (
     <motion.div
-      className={wrapper}
+      className={fullWidth ? wrapperFull : wrapper}
       ref={wrapperRef}
       whileTap={{ cursor: "grabbing" }}
     >

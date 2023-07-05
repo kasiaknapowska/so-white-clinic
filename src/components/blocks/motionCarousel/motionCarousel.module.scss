@@ -1,8 +1,15 @@
 @import "../../../scss/variables";
-.wrapper {
+.wrapper,
+.wrapperFull {
   display: flex;
   width: 100%;
   overflow: hidden;
+  .innerWrapper {
+    display: inline-flex;
+    gap: $space3;
+  }
+}
+.wrapper {
   @media screen and ($desktopS) {
     max-width: 484px;
     // -webkit-mask-image: linear-gradient(
@@ -11,9 +18,5 @@
     //   transparent
     // );
     // mask-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 95%, transparent);
-  }
-  .innerWrapper {
-    display: inline-flex;
-    gap: $space3;
   }
 }

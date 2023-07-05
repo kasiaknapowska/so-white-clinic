@@ -42,7 +42,7 @@ const Leczenie = () => (
         <h3>Poznaj swoją drogę do Hollywood Smile</h3>
         <p>Kliknij w wybrany zabieg i dowiedz się więcej</p>
         <Space />
-        <MotionCarousel>
+        <MotionCarousel fullWidth>
           {offerTextLinks.map((el, i) => {
             return <TextCard key={el.label + i} label={el.label} url={el.url} />
           })}

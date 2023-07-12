@@ -33,7 +33,7 @@ export const offerTextLinks = [
   },
   { label: "Usuwanie zębów", url: "usuwanie-zebow" },
   {
-    label: "Uzupełnianie braków implantami",
+    label: "Implanty zębowe",
     url: "implanty",
     intro:
       "Implanty są metodą odbudowy pełnego uzębienia w przypadku braku pojedynczych zębów, kilku zębów lub bezzębia. Implanty zapewniają naturalny wygląd i odtwarzają funkcję utraconych zębów.",

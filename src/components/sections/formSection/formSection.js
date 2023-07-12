@@ -5,7 +5,7 @@ import Space from "../../elements/space/space"
 const FormSection = () => {
   return (
     <section className={formSection}>
-      <div className="container dflex50">
+      <div className="container dflexLayout">
         <div>
           <h3>Skontaktuj się z nami!</h3>
           <p>Zadaj nam pytanie lub zostaw numer telefonu.</p>

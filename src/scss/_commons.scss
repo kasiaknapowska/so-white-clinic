@@ -2,14 +2,12 @@
 @import "./reset";
 @import "./variables";
 
-
 @font-face {
-  font-family: 'Tahu';
-  src: url('../static/fonts/tahu-webfont.woff2') format('woff2'),
-       url('../static/fonts/tahu-webfont.woff') format('woff');
+  font-family: "Tahu";
+  src: url("../static/fonts/tahu-webfont.woff2") format("woff2"),
+    url("../static/fonts/tahu-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
 :root {
   scroll-behavior: auto !important;
@@ -30,7 +28,7 @@ body {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
-    
+
     &:active {
       outline-width: 0;
     }
@@ -74,7 +72,7 @@ body {
     font-size: $medium;
     line-height: 160%;
     margin-bottom: $space3;
-    color:black;
+    color: black;
     &.narrow {
       max-width: 24rem;
     }
@@ -96,12 +94,21 @@ body {
     }
   }
 
-section {
-  padding: calc($space6 * 2) 0;
-  &.topSection {
-    padding-top: calc($space6 * 2 + 110px)
+  section {
+
+      padding: calc($space6 * 2) 0;
+  
+    &.topSection {
+      padding-top: calc($space6 * 2 + 110px);
+    }
+    &.bottomSection {
+      padding-bottom: calc($space6 * 2);
+    }
+    &.noPaddingSection {
+      padding: 0;
+    }
   }
-}
+
   .container {
     width: 90%;
     margin: 0 auto;
@@ -113,12 +120,13 @@ section {
       max-width: $sizeContent;
     }
   }
-  .dflex50 {
+  .dflexLayout {
     @media screen and ($desktopS) {
       display: flex;
       gap: calc($space6 * 2);
     }
   }
+
   .icon {
     position: relative;
     top: -2px;
@@ -136,5 +144,5 @@ section {
   &:hover {
     text-decoration: underline;
     text-underline-offset: 5px;
-}
+  }
 }

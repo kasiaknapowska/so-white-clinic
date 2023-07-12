@@ -2,11 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 // import Reveal from "../../effects/reveal/reveal"
 import AccordionButton from "../../elements/buttons/accordionButton"
-import {intro, open, link} from "./accordion.module.scss"
+import {accordionItem, intro, open, link} from "./accordion.module.scss"
 
 const AccordionItem = ({ item, i, onToggle, active }) => {
   return (
-    <li >
+    <li className={accordionItem}>
       {" "}
       {/* <Reveal> */}
         <AccordionButton label={item.label} i={i} onToggle={onToggle} active={active}/>

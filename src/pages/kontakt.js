@@ -9,7 +9,7 @@ import Space from "../components/elements/space/space"
 const Kontakt = () => (
   <Layout>
     <section className="topSection">
-      <div className="container dflex50">
+      <div className="container dflexLayout">
         <div>
           <h1>Skontaktuj się z nami</h1>
           <p>

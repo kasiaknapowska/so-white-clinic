@@ -1,18 +1,27 @@
 @import "../../../scss/variables";
+.accordion {
+  @media screen and ($desktopS) {
+    width: 300px;
+  }
+
+  .accordionItem {
+    width: 100%;
+  }
+}
+
 .intro {
-    display: none;
-    font-size: $medium;
-    line-height: 160%;
-    .link {
-        display: block;
-        margin-top: $space3;
-        &:hover {
-            // color: $colorPrimary;
-            text-decoration: underline;
-            text-underline-offset: 5px;
-        }
+  display: none;
+  font-size: $medium;
+  line-height: 160%;
+  .link {
+    display: block;
+    margin-top: $space3;
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 5px;
     }
-} 
+  }
+}
 .open {
-        display: block;
-    }
+  display: block;
+}

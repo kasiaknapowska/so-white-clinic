@@ -8,7 +8,7 @@ import Locator from "../images/logo/Lokalizator.svg"
 const JakDojechac = () => (
   <Layout>
     <section className="topSection">
-    <div className="container dflex50" style={{justifyContent: "space-between", alignItems: "center"}}>
+    <div className="container dflexLayout" style={{justifyContent: "space-between", alignItems: "center"}}>
       <h1>Jak do nas dojechać?</h1>
       <div style={{display: "flex", gap: "1.5rem"}}>
         <img src={Locator} alt="lokalizator" className="locator"/>

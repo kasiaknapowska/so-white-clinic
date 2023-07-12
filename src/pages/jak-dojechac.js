@@ -1,5 +1,4 @@
 import * as React from "react"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -21,7 +20,6 @@ const JakDojechac = () => (
     </div>
     </section>
     <GoogleMap />
-    {/* <Link to="/">Wróć do strony głównej</Link> */}
   </Layout>
 )
 

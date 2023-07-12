@@ -40,7 +40,7 @@ const Higiena = () => {
           <h3>Chcesz umówić wizytę? Zadzwoń do nas!</h3>
           <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
           <Space />
-          <Link to="/">Wróć do strony głównej</Link>
+          <Link className="backBtn" to="/">Wróć do strony głównej</Link>
         </div>
       </section>
     </Layout>

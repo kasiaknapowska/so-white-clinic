@@ -10,7 +10,7 @@ const AccordionItem = ({ item, i, onToggle, active }) => {
       {" "}
       {/* <Reveal> */}
         <AccordionButton label={item.label} i={i} onToggle={onToggle} active={active}/>
-        <div className={`${intro} ${active ? open : ""}`}>{item.intro}<Link className={link} to={`/leczenie/${item.url}`}>Czytaj więcej ...</Link></div>
+        <div className={`${intro} ${active ? open : ""}`}>{item.intro}.. <Link className={link} to={`/leczenie/${item.url}`}>Czytaj więcej</Link></div>
         
       {/* </Reveal> */}
     </li>

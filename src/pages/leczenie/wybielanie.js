@@ -37,7 +37,7 @@ const Wybielanie = () =>  {
         <h3>Chcesz wybielić zęby? Umów wizytę!</h3>
         <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
         <Space />
-        <Link to="/">Wróć do strony głównej</Link>
+        <Link className="backBtn" to="/">Wróć do strony głównej</Link>
       </div>
     </section>
   </Layout>

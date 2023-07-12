@@ -1,5 +1,4 @@
 import * as React from "react"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -26,7 +25,7 @@ const Kontakt = () => (
         <Form />
       </div>
     </section>
-    {/* <Link to="/">Wróć do strony głównej</Link> */}
+
   </Layout>
 )
 

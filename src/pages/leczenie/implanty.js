@@ -33,7 +33,7 @@ const Implanty = () => (
         <h3>Pełen uśmiech jest w zasięgu Twojej ręki! Umów wizytę!</h3> 
         <ButtonLink label="Chcę umówić konsultację" url="/kontakt" />
         <Space />
-        <Link to="/">Wróć do strony głównej</Link>
+        <Link className="backBtn" to="/">Wróć do strony głównej</Link>
       </div>
     </section>
   </Layout>

@@ -30,6 +30,7 @@ body {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
+    
     &:active {
       outline-width: 0;
     }
@@ -129,4 +130,11 @@ section {
     position: relative;
     bottom: 8px;
   }
+}
+.backBtn {
+  font-size: $medium;
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
 }

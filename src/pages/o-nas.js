@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Space from "../components/elements/space/space"
 import ButtonLink from "../components/elements/buttons/buttonLink"
+import Accordion from "../components/blocks/accordion/accordion"
 
 const ONas = () => (
   <Layout>
@@ -32,6 +33,8 @@ const ONas = () => (
           pozytywny wpływ na ogólną estetykę twarzy, poprawiając symetrię i
           proporcje.
         </p>
+        <Space />
+        <Accordion/>
         <Space />
         <h3>
           Chcesz poznać swoją drogę do Hollywood smile? Skonsultuj się z naszym

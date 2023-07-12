@@ -1,0 +1,13 @@
+@import "../../../scss/variables";
+.intro {
+    display: none;
+    font-size: $medium;
+    line-height: 160%;
+    .link {
+        display: block;
+        margin-top: $space3;
+    }
+} 
+.open {
+        display: block;
+    }

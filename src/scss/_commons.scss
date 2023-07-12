@@ -78,6 +78,13 @@ body {
       max-width: 24rem;
     }
   }
+  button {
+    border: none;
+    background-color: transparent;
+    font-family: $montserrat;
+    font-weight: 500;
+    font-size: $medium;
+  }
   button[type="submit"] {
     @extend %button;
     border: none;

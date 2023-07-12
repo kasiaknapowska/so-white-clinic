@@ -56,8 +56,7 @@
     }
   }
 }
-.textArrowLink {
-  border-color: $colorNeutralDark;
+.textArrowLink, .accordionBtn {
   position: relative;
   font-size: $medium;
   font-weight: 600;
@@ -73,15 +72,32 @@
     }
   }
 }
-
+.accordionBtnActive {
+  color: $colorPrimary;
+    border-color: $colorPrimary;
+    span:first-child {
+      background-color: $colorPrimary;
+    }
+}
 .arrow {
   display: inline-block;
   width: 12px;
   height: 12px;
-  transform: rotate(45deg);
   border-top-width: 2px;
   border-top-style: solid;
   border-right-width: 2px;
   border-right-style: solid;
   border-color: inherit;
+  position: relative;
+}
+.arrowRight {
+  transform: rotate(45deg);
+}
+.arrowDown {
+  transform: rotate(135deg);
+  top: -3px;
+}
+.arrowUp {
+  transform: rotate(-45deg);
+  top: 3px;
 }

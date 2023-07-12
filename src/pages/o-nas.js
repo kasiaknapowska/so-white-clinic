@@ -52,7 +52,7 @@ const ONas = () => (
         <ButtonLink label="Chcę umówić konsultację" url="/kontakt" />
       </div>
     </section>
-    <section className="bottomSection">
+    <section>
       <div className="container">
         <Link className="backBtn" to="/">
           Wróć do strony głównej

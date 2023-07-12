@@ -96,13 +96,10 @@ body {
 
   section {
 
-      padding: calc($space6 * 2) 0;
+    padding: calc($space6 * 2) 0;
   
     &.topSection {
       padding-top: calc($space6 * 2 + 110px);
-    }
-    &.bottomSection {
-      padding-bottom: calc($space6 * 2);
     }
     &.noPaddingSection {
       padding: 0;

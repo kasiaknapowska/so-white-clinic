@@ -10,10 +10,13 @@
 }
 
 .intro {
-  display: none;
+  // display: none;
   font-size: $medium;
   line-height: 160%;
-
+  // display: block;
+  // visibility: hidden;
+  // height: 0;
+  overflow: hidden;
   .link {
     display: block;
     margin-top: $space3;
@@ -24,5 +27,8 @@
   }
 }
 .open {
-  display: block;
+  // display: block;
+  // height: auto;
+  // visibility: visible;
+  // overflow: hidden;
 }

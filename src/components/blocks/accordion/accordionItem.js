@@ -7,10 +7,7 @@ import { accordionItem, intro, open, link } from "./accordion.module.scss"
 import { motion } from "framer-motion"
 
 const AccordionItem = ({ item, i, onToggle, isActive }) => {
-  const variants = {
-    visible: { opacity: 1, y: 0 },
-    hidden: { opacity: 0, y: "-20%" },
-  }
+
   return (
     <li className={accordionItem}>
       {" "}
@@ -21,14 +18,17 @@ const AccordionItem = ({ item, i, onToggle, isActive }) => {
           onToggle={onToggle}
           isActive={isActive}
         />
-        <Reveal isActive={isActive}>
-          <div className={`${intro} ${isActive ? open : ""}`}>
+       {/* {isActive &&   */}
+       <Reveal isActive={isActive}>
+          {/* <div className={`${intro} ${isActive ? open : ""}`}> */}
+          <div className={`${intro}`}>
             {item.intro}..{" "}
             <Link className={link} to={`/leczenie/${item.url}`}>
               Czytaj więcej
             </Link>
           </div>
         </Reveal>
+        {/* } */}
       </RevealOnScroll>
     </li>
   )

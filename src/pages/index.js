@@ -12,7 +12,7 @@ import TextArrowLink from "../components/elements/buttons/textArrowLink"
 
 import { heroTextCardsLinks, offerTextLinks } from "../data/links"
 import MotionCarousel from "../components/blocks/motionCarousel/motionCarousel"
-import Reveal from "../components/effects/reveal/reveal"
+import RevealOnScroll from "../components/effects/reveal/revealOnScroll"
 import TextCard from "../components/blocks/textCard/textCard"
 
 
@@ -52,46 +52,46 @@ const IndexPage = () => (
     />
     <section className="topSection">
       <div className="container">
-        <Reveal>
+        <RevealOnScroll>
           <h1>
             Wish you <span className="decor">smile</span>
           </h1>
-        </Reveal>
+        </RevealOnScroll>
         <Space />
         <Space />
-        <Reveal>
+        <RevealOnScroll>
           <p className="narrow">
             Hollywood Smile to śnieżnobiały, perfekcyjny uśmiech dobrze znany z
             wielkiego ekranu i okładek kolorowych czasopism. Dzięki So White
             Clinic jest on teraz osiągalny również dla Ciebie!
           </p>
-        </Reveal>
+        </RevealOnScroll>
         <Space />
-        <Reveal>
+        <RevealOnScroll>
           <ButtonLink label="Chcę mieć Hollywood smile" url="/kontakt" />
-        </Reveal>
+        </RevealOnScroll>
       </div>
     </section>
 
     <div className="container">
-      <Reveal>
+      <RevealOnScroll>
         <MotionCarousel>
           {heroTextCardsLinks.map((el, i) => {
             return <TextCard key={el.label + i} label={el.label} url={el.url} />
           })}
         </MotionCarousel>
-      </Reveal>
+      </RevealOnScroll>
     </div>
     <section>
       <div className="container">
-        <Reveal>
+        <RevealOnScroll>
         <h2>
           Twoja droga do <span className="decor">Hollywood smile</span>
         </h2>
-        </Reveal>
+        </RevealOnScroll>
         <Space />
         <Space />
-        <Reveal>
+        <RevealOnScroll>
         <p className="narrow">
           Chcesz wiedzieć, jakie zabiegi stomatologiczne pozwolą Ci osiągnąć
           pożądany Hollywood Smile?
@@ -102,16 +102,16 @@ const IndexPage = () => (
           stomatologicznej So White Clinic.
         </p>
         <p>Kliknij i dowiedz się więcej!</p>
-        </Reveal>
+        </RevealOnScroll>
       </div>
       <div className="container">
         <ol>
           {offerTextLinks.map((el, i) => {
             return (
               <li key={el.url + i}>
-                <Reveal>
+                <RevealOnScroll>
                   <TextArrowLink url={`/leczenie/${el.url}`} label={el.label} i={i}/>
-                </Reveal>{" "}
+                </RevealOnScroll>{" "}
               </li>
             )
           })}

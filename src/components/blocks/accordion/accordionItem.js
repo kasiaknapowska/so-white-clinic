@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import RevealOnScroll from "../../effects/reveal/revealOnScroll"
 import Reveal from "../../effects/reveal/reveal"
 import AccordionButton from "../../elements/buttons/accordionButton"
 import { accordionItem, intro, open, link } from "./accordion.module.scss"
@@ -13,25 +14,22 @@ const AccordionItem = ({ item, i, onToggle, isActive }) => {
   return (
     <li className={accordionItem}>
       {" "}
-      <Reveal>
+      <RevealOnScroll>
         <AccordionButton
           label={item.label}
           i={i}
           onToggle={onToggle}
           isActive={isActive}
         />
-        <motion.div
-          animate={isActive ? "visible" : "hidden"}
-          variants={variants}
-          transition={{ delay: 0.1 }}
-          className={`${intro} ${isActive ? open : ""}`}
-        >
-          {item.intro}..{" "}
-          <Link className={link} to={`/leczenie/${item.url}`}>
-            Czytaj więcej
-          </Link>
-        </motion.div>
-      </Reveal>
+        <Reveal isActive={isActive}>
+          <div className={`${intro} ${isActive ? open : ""}`}>
+            {item.intro}..{" "}
+            <Link className={link} to={`/leczenie/${item.url}`}>
+              Czytaj więcej
+            </Link>
+          </div>
+        </Reveal>
+      </RevealOnScroll>
     </li>
   )
 }

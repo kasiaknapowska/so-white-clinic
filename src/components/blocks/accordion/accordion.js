@@ -15,7 +15,7 @@ const Accordion = () => {
   return (
     <ul className={accordion}>
 {offerTextLinks.map((item, i) => (
-    <AccordionItem item={item} key={i} i={i} onToggle={() => handleToggle(i)} active={clicked === i}/>
+   <AccordionItem item={item} key={i} i={i} onToggle={() => handleToggle(i)} isActive={clicked === i}/>
 ))}
     </ul>
   )

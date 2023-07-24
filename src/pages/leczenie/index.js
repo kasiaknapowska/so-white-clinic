@@ -53,7 +53,6 @@ const Leczenie = () => (
             formats={["auto", "webp", "avif"]}
             alt=""
             style={{
-              // width: "300px"
               width: "100%"
             }}
           />

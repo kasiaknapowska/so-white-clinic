@@ -15,25 +15,10 @@ import MotionCarousel from "../components/blocks/motionCarousel/motionCarousel"
 import RevealOnScroll from "../components/effects/reveal/revealOnScroll"
 import TextCard from "../components/blocks/textCard/textCard"
 
-
 const IndexPage = () => (
   <Layout>
     <StaticImage
-      src="../images/hero.png"
-      loading="eager"
-      width={1080}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt=""
-      style={{
-        position: "fixed",
-        bottom: "0",
-        right: "0",
-        height: "calc(100vh - 85px)",
-        zIndex: "-1",
-      }}
-    />
-    <StaticImage
+      className="heroImageBg"
       src="../images/logo/swc-icon-white.png"
       loading="eager"
       width={1080}
@@ -50,6 +35,22 @@ const IndexPage = () => (
         zIndex: "-2",
       }}
     />
+    <StaticImage
+      className="heroImage"
+      src="../images/hero.png"
+      loading="eager"
+      width={1080}
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+      alt=""
+      // style={{
+      //   position: "fixed",
+      //   bottom: "0",
+      //   right: "0",
+      //   height: "calc(100vh - 85px)",
+      //   zIndex: "-1",
+      // }}
+    />
     <section className="topSection">
       <div className="container">
         <RevealOnScroll>
@@ -57,6 +58,7 @@ const IndexPage = () => (
             Wish you <span className="decor">smile</span>
           </h1>
         </RevealOnScroll>
+
         <Space />
         <Space />
         <RevealOnScroll>
@@ -85,33 +87,37 @@ const IndexPage = () => (
     <section>
       <div className="container">
         <RevealOnScroll>
-        <h2>
-          Twoja droga do <span className="decor">Hollywood smile</span>
-        </h2>
+          <h2>
+            Twoja droga do <span className="decor">Hollywood smile</span>
+          </h2>
         </RevealOnScroll>
         <Space />
         <Space />
         <RevealOnScroll>
-        <p className="narrow">
-          Chcesz wiedzieć, jakie zabiegi stomatologiczne pozwolą Ci osiągnąć
-          pożądany Hollywood Smile?
-        </p>
-        <p className="narrow">
-          Oto najpopularniejsza droga do Hollywood Smile, wykorzystująca
-          wszystkie zabiegi estetyczne wykonywane w profesjonalnej klinice
-          stomatologicznej So White Clinic.
-        </p>
-        <p>Kliknij i dowiedz się więcej!</p>
+          <p className="narrow">
+            Chcesz wiedzieć, jakie zabiegi stomatologiczne pozwolą Ci osiągnąć
+            pożądany Hollywood Smile?
+          </p>
+          <p className="narrow">
+            Oto najpopularniejsza droga do Hollywood Smile, wykorzystująca
+            wszystkie zabiegi estetyczne wykonywane w profesjonalnej klinice
+            stomatologicznej So White Clinic.
+          </p>
+          <p>Kliknij i dowiedz się więcej!</p>
         </RevealOnScroll>
       </div>
-      <Space/>
+      <Space />
       <div className="container">
         <ol>
           {offerTextLinks.map((el, i) => {
             return (
               <li key={el.url + i}>
                 <RevealOnScroll>
-                  <TextArrowLink url={`/leczenie/${el.url}`} label={el.label} i={i}/>
+                  <TextArrowLink
+                    url={`/leczenie/${el.url}`}
+                    label={el.label}
+                    i={i}
+                  />
                 </RevealOnScroll>{" "}
               </li>
             )
@@ -128,6 +134,8 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="So White Clinic - Spełnij marzenia o Hollywood smile" />
+export const Head = () => (
+  <Seo title="So White Clinic - Spełnij marzenia o Hollywood smile" />
+)
 
 export default IndexPage

@@ -123,6 +123,11 @@ body {
       gap: calc($space6 * 2);
     }
   }
+  aside {
+    @media screen and ($desktopS) {
+      width: 300px;
+    }
+  }
 
   .icon {
     position: relative;

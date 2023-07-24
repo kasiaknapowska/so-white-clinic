@@ -95,21 +95,27 @@ body {
   }
 
   section {
+    padding: calc($space6) 0;
 
-    padding: calc($space6 * 2) 0;
-  
     &.topSection {
-      padding-top: calc($space6 * 2 + 110px);
+      padding-top: calc($space6 + 110px);
     }
     &.noPaddingSection {
       padding: 0;
+    }
+
+    @media screen and ($tablet) {
+      padding: calc($space6 * 2) 0;
+
+      &.topSection {
+        padding-top: calc($space6 * 2 + 110px);
+      }
     }
   }
 
   .container {
     width: 90%;
     margin: 0 auto;
-    padding: $space3 0;
     @media screen and ($tablet) {
       width: 80%;
     }
@@ -120,12 +126,13 @@ body {
   .dflexLayout {
     @media screen and ($desktopS) {
       display: flex;
-      gap: calc($space6 * 2);
-    }
-  }
-  aside {
-    @media screen and ($desktopS) {
-      width: 300px;
+      justify-content: space-between;
+      article {
+        flex-basis: calc(70% - $space6);
+      }
+      aside {
+        flex-basis: calc(30% - $space6);
+      }
     }
   }
 

@@ -104,6 +104,7 @@ const IndexPage = () => (
         <p>Kliknij i dowiedz się więcej!</p>
         </RevealOnScroll>
       </div>
+      <Space/>
       <div className="container">
         <ol>
           {offerTextLinks.map((el, i) => {

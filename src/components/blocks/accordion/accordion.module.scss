@@ -1,8 +1,5 @@
 @import "../../../scss/variables";
 .accordion {
-  @media screen and ($desktopS) {
-    width: 300px;
-  }
 
   .accordionItem {
     width: 100%;

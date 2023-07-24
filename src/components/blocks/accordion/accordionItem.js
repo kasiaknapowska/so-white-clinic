@@ -18,9 +18,7 @@ const AccordionItem = ({ item, i, onToggle, isActive }) => {
           onToggle={onToggle}
           isActive={isActive}
         />
-       {/* {isActive &&   */}
        <Reveal isActive={isActive}>
-          {/* <div className={`${intro} ${isActive ? open : ""}`}> */}
           <div className={`${intro}`}>
             {item.intro}..{" "}
             <Link className={link} to={`/leczenie/${item.url}`}>
@@ -28,7 +26,6 @@ const AccordionItem = ({ item, i, onToggle, isActive }) => {
             </Link>
           </div>
         </Reveal>
-        {/* } */}
       </RevealOnScroll>
     </li>
   )

@@ -74,7 +74,10 @@ body {
     margin-bottom: $space3;
     color: black;
     &.narrow {
-      max-width: 24rem;
+      max-width: 100%;
+      @media screen and ($desktopS) {
+        max-width: 24rem;
+      }
     }
   }
   button {
@@ -163,7 +166,7 @@ body {
   @media screen and ($desktopS) {
     position: fixed;
     bottom: 0;
-    right: -200px;
+    right: -250px;
     height: calc(100vh - 77px);
     z-index: -1;
   }
@@ -174,5 +177,14 @@ body {
 .heroImageBg {
   @media screen and (max-width: 999px) {
     display: none;
+  }
+  @media screen and ($desktopS) {
+    position: absolute;
+    top: 200px;
+    right: -360px;
+    width: 70vw;
+    max-width: 1080px;
+    overflow-x: hidden;
+    z-index: -2;
   }
 }

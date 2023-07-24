@@ -25,15 +25,6 @@ const IndexPage = () => (
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt=""
-      style={{
-        position: "absolute",
-        top: "200px",
-        right: "-360px",
-        width: "70vw",
-        maxWidth: "1080px",
-        overflowX: "hidden",
-        zIndex: "-2",
-      }}
     />
     <StaticImage
       className="heroImage"
@@ -43,13 +34,6 @@ const IndexPage = () => (
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt=""
-      // style={{
-      //   position: "fixed",
-      //   bottom: "0",
-      //   right: "0",
-      //   height: "calc(100vh - 85px)",
-      //   zIndex: "-1",
-      // }}
     />
     <section className="topSection">
       <div className="container">

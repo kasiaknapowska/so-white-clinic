@@ -204,7 +204,7 @@ body {
 }
 .heroImageBg {
   @media screen and (max-width: 999px) {
-    display: none;
+    display: none !important;
   }
   @media screen and ($desktopS) {
     position: absolute;
@@ -215,4 +215,12 @@ body {
     overflow-x: hidden;
     z-index: -2;
   }
+}
+.heroImageBg.gatsby-image-wrapper-constrained {
+  @media screen and (max-width: 999px) {
+    display: none;
+  }
+}
+.gatsby-image-wrapper {
+  position: static;
 }

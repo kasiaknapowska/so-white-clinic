@@ -11,6 +11,7 @@
   }
   100% {
     opacity: 0;
+    display: none;
   }
 }
 
@@ -170,7 +171,7 @@ body {
     text-underline-offset: 5px;
   }
 }
-.heroImage {
+div.gatsby-image-wrapper.gatsby-image-wrapper-constrained.heroImage {
   @media screen and (max-width: 999px) {
     position: fixed;
     bottom: 0;
@@ -202,7 +203,7 @@ body {
     animation: fade-out 2.5s ease-out forwards;
   }
 }
-.heroImageBg {
+div.gatsby-image-wrapper.gatsby-image-wrapper-constrained.heroImageBg {
   @media screen and (max-width: 999px) {
     display: none !important;
   }
@@ -216,11 +217,4 @@ body {
     z-index: -2;
   }
 }
-.heroImageBg.gatsby-image-wrapper-constrained {
-  @media screen and (max-width: 999px) {
-    display: none !important;
-  }
-}
-.gatsby-image-wrapper {
-  position: static !important;
-}
+

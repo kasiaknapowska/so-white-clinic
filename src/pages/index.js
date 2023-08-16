@@ -26,6 +26,7 @@ const IndexPage = () => (
       formats={["auto", "webp", "avif"]}
       alt=""
     />
+    <div className="heroApla"></div>
     <StaticImage
       className="heroImage"
       src="../images/hero.png"
@@ -35,6 +36,7 @@ const IndexPage = () => (
       formats={["auto", "webp", "avif"]}
       alt=""
     />
+
     <section className="topSection">
       <div className="container">
         <RevealOnScroll>

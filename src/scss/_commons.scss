@@ -2,6 +2,19 @@
 @import "./reset";
 @import "./variables";
 
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+ 75% {
+  opacity: 0.99;
+ }
+  100% {
+    opacity: 0;
+  }
+}
+
 @font-face {
   font-family: "Tahu";
   src: url("../static/fonts/tahu-webfont.woff2") format("woff2"),
@@ -159,8 +172,16 @@ body {
   }
 }
 .heroImage {
+ 
   @media screen and (max-width: 999px) {
-    display: none;
+    position: fixed;
+    bottom: 0;
+    height: 100vh;
+    left: -200px;
+    z-index: 1;
+    // opacity: 0;
+    animation: fade-out 2s ease-out forwards;
+
   }
 
   @media screen and ($desktopS) {
@@ -171,8 +192,22 @@ body {
     z-index: -1;
   }
   @media screen and ($desktop) {
-    right: 0; 
+    right: 0;
   }
+}
+.heroApla {
+  @media screen and (max-width: 999px) {
+
+    position: fixed;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    background-color: $colorPrimaryTransparentFlat;
+    // opacity: 0;
+    animation: fade-out 2.5s ease-out forwards;
+  }
+ 
 }
 .heroImageBg {
   @media screen and (max-width: 999px) {

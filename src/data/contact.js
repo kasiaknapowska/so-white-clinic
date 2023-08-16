@@ -1,6 +1,6 @@
 export const contact = {
     address: "Katowice, ul. Czajek 5",
-    phone: "322037425",
-    phoneLabel: "32 203 74 25",
-    email: "obsluga.pacjenta@borczyk.pl"
+    phone: "326060400",
+    phoneLabel: "32 60 60 400",
+    email: "recepcja@sowhiteclinic.pl"
 }

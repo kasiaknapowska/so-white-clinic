@@ -171,7 +171,7 @@ body {
     text-underline-offset: 5px;
   }
 }
-div.gatsby-image-wrapper.gatsby-image-wrapper-constrained.heroImage {
+.heroImage {
   @media screen and (max-width: 999px) {
     position: fixed;
     bottom: 0;
@@ -202,8 +202,11 @@ div.gatsby-image-wrapper.gatsby-image-wrapper-constrained.heroImage {
     background-color: $colorPrimaryTransparentFlat;
     animation: fade-out 2.5s ease-out forwards;
   }
+  @media screen and ($desktopS) {
+    display: none;
+  }
 }
-div.gatsby-image-wrapper.gatsby-image-wrapper-constrained.heroImageBg {
+.heroImageBg {
   @media screen and (max-width: 999px) {
     display: none !important;
   }

@@ -220,6 +220,9 @@ body {
     z-index: -2;
   }
 }
+.gatsby-image-wrapper {
+  position: relative !important;
+}
 .gatsby-image-wrapper.heroImageBg {
   position: absolute !important;
 }

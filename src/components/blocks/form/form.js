@@ -39,8 +39,8 @@ const Form = () => {
   return (
     <form
       method="post"
-      //   netlify-honeypot="bot-field"
-      //   data-netlify="true"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
       name="SoWhiteClinicForm"
       onSubmit={handleSubmit(onSubmit)}
     >

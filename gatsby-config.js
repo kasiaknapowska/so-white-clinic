@@ -15,6 +15,7 @@ module.exports = {
     siteUrl: `https://sowhiteclinic.pl/`,
   },
   plugins: [
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
     {

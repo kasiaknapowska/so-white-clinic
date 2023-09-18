@@ -26,7 +26,7 @@ const IndexPage = () => (
       formats={["auto", "webp", "avif"]}
       alt=""
     />
-    <div className="heroApla"></div>
+    {/* <div className="heroApla"></div> */}
     <StaticImage
       className="heroImage"
       src="../images/hero.png"

@@ -207,7 +207,7 @@ body {
     // left: -200px;
     // z-index: 1;
     // animation: fade-out 2s ease-out forwards;
-    display: none;
+    display: none !important;
   }
 
   @media screen and ($desktopS) {

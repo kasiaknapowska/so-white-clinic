@@ -1,5 +1,8 @@
 @import "../../../scss/variables";
 .space {
     width: 100%;
-    height: $space6;
+    height: $space5;
+    @media screen and ($tablet) {
+        height: $space6;
+    }
 }

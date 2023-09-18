@@ -142,7 +142,7 @@ body {
     padding: calc($space6) 0;
 
     &.topSection {
-      padding-top: calc($space6 + 110px);
+      padding-top: calc($space4 + 110px);
     }
     &.noPaddingSection {
       padding: 0;
@@ -250,6 +250,8 @@ body {
     z-index: -2;
   }
 }
+
+//this is important to properly display hero image on desktop
 .gatsby-image-wrapper {
   position: relative !important;
 }

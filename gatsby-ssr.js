@@ -10,31 +10,30 @@ const React = require("react")
 exports.onRenderBody = ({ setHtmlAttributes, setHeadComponents }) => {
   setHtmlAttributes({ lang: `en` })
 
-  setHeadComponents([
-    <link
-    key="tahu2"
-      rel="preload"
-      href="./static/tahu-webfont.woff2"
-      as="font"
-      type="font/woff2"
-      crossOrigin="anonymous"
-    />,
-    <link
-    key="tahu"
-    rel="preload"
-    href="./static/tahu-webfont.woff"
-    as="font"
-    type="font/woff"
-    crossOrigin="anonymous"
-  />,
-  <link
-  key="montserrat"
-  rel="preload"
-  href="./static/montserrat.woff2"
-  as="font"
-  type="font/woff"
-  crossOrigin="anonymous"
-/>,
-
-  ]);
+  // setHeadComponents([
+  //   <link
+  //     key="tahu2"
+  //     rel="preload"
+  //     href="./fonts/tahu-webfont.woff2"
+  //     as="font"
+  //     type="font/woff2"
+  //     crossOrigin="anonymous"
+  //   />,
+  //   <link
+  //     key="tahu"
+  //     rel="preload"
+  //     href="./fonts/tahu-webfont.woff"
+  //     as="font"
+  //     type="font/woff"
+  //     crossOrigin="anonymous"
+  //   />,
+  //   <link
+  //     key="montserrat"
+  //     rel="preload"
+  //     href="./fonts/montserrat.woff2"
+  //     as="font"
+  //     type="font/woff"
+  //     crossOrigin="anonymous"
+  //   />,
+  // ])
 }

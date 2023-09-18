@@ -50,22 +50,22 @@ module.exports = {
         icon: `src/images/logo/swc-icon-512.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-omni-font-loader`,
-      options: {
-        enableListener: true,
-        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
-        web: [
-          {
-            name: `Montserrat`,
-            file: `https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap`,
-          },
-          {
-            name: `Varela Round`,
-            file: `https://fonts.googleapis.com/css2?family=Varela+Round&display=swap`,
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-omni-font-loader`,
+    //   options: {
+    //     enableListener: true,
+    //     preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+    //     web: [
+    //       {
+    //         name: `Montserrat`,
+    //         file: `https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap`,
+    //       },
+    //       {
+    //         name: `Varela Round`,
+    //         file: `https://fonts.googleapis.com/css2?family=Varela+Round&display=swap`,
+    //       },
+    //     ],
+    //   },
+    // },
   ],
 }

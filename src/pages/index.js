@@ -65,7 +65,7 @@ const IndexPage = () => (
       <RevealOnScroll>
         <MotionCarousel>
           {heroTextCardsLinks.map((el, i) => {
-            return <TextCard key={el.label + i} label={el.label} url={el.url} />
+            return <TextCard key={el.label + i} label={el.label} url={el.url} ariaLabel={`${el.label} - dowiedz się więcej`}/>
           })}
         </MotionCarousel>
       </RevealOnScroll>

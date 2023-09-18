@@ -21,6 +21,14 @@
     url("../static/fonts/tahu-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../static/fonts/montserrat.woff2") format("woff2");
+  font-weight: 400 500 600 700;
+  font-style: normal;
+  font-display: swap;
 }
 :root {
   scroll-behavior: auto !important;

@@ -15,9 +15,8 @@
 
  
 }
- .logo {
-    @media screen and ($mobile) {
-     max-width: 10rem;
-    }
-    width: 12rem;
+ .logo { 
+    width: 100%;
+    max-width: 200px;
+    height: auto;
   }

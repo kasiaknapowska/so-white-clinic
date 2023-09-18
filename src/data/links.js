@@ -16,22 +16,42 @@ export const heroTextCardsLinks = [
 ]
 
 export const offerTextLinks = [
-  { label: "Higienizacja", url: "higiena", intro: "" },
+  {
+    label: "Higienizacja",
+    url: "higiena",
+    intro:
+      "Regularne usuwanie kamienia i osadu (scaling) pozwala utrzymać zdrowie całej jamy ustnej i cieszyć się atrakcyjnym uśmiechem",
+  },
   {
     label: "Wybielanie",
     url: "wybielanie",
     intro:
-      "Wybielanie zębów to jedna z podstawowych procedur w ramach Hollywood Smile. Pozwala ono usunąć przebarwienia i ożywić naturalny blask zębów.",
+      "Jedna z podstawowych procedur w ramach Hollywood Smile. Pozwala usunąć przebarwienia i ożywić naturalny blask zębów.",
   },
-  { label: "Prosta korekta zgryzu", url: "ortodoncja", intro: "" },
-  { label: "Bonding & flow injection", url: "bonding", intro: "" },
+  {
+    label: "Prosta korekta zgryzu",
+    url: "ortodoncja",
+    intro:
+      "Leczenie drobnych niedoskonałości zgryzu nie musi wiązać się z długotrwałym noszeniem aparatu ortodontycznego.",
+  },
+  {
+    label: "Bonding & flow injection",
+    url: "bonding",
+    intro:
+      "Nieinwazyjna metoda odbudowy zębów, przywracająca ładny uśmiech bez konieczności szlifowania zębów",
+  },
   {
     label: "Licówki i korony",
     url: "licowki-i-korony",
     intro:
-      "Licówki ceramiczne są cienkimi nakładkami, które są trwale  przymocowane do przedniej powierzchni zębów, nadając im idealny kształt, kolor i symetrię. Korony są stosowane, gdy zęby są poważnie uszkodzone lub mają duże ubytki. ",
+      "Licówki to cienkie nakładki trwale przymocowane do przedniej powierzchni zębów, nadające idealny kształt, kolor i symetrię. Korony są stosowane, gdy zęby są poważnie uszkodzone lub mają duże ubytki. ",
   },
-  { label: "Usuwanie zębów", url: "usuwanie-zebow" },
+  {
+    label: "Usuwanie zębów",
+    url: "usuwanie-zebow",
+    intro:
+      "Zęby usuwamy tylko wtedy, gdy nie ma możliwości uratowania ich przy zastosowaniu nowoczesnych metod leczenia lub gdy leczenie przyniosłoby krótkoterminowe efekty i jest nieopłacalne dla Pacjenta",
+  },
   {
     label: "Implanty zębowe",
     url: "implanty",

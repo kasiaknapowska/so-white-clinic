@@ -12,28 +12,32 @@ const Implanty = () => (
         <h1>Uzupełnianie zębów implantami</h1>
         <h2>Poprzez brak zębów nie chcesz się uśmiechać? Mamy na to sposób!</h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Zastanawiasz się nad uzupełnieniem brakujących zębów, ale nie wiesz,
+          jaką metodę wybrać? Proteza, most, a może implanty? W So White Clinic
+          stosujemy sprawdzone metody leczenia, które pozwalają naszym Pacjentom
+          nie tylko szeroko się uśmiechać, ale także komfortowo funkcjonować.
         </p>
         <p>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don't look even slightly believable.
-          If you are going to use a passage of Lorem Ipsum, you need to be sure
-          there isn't anything embarrassing hidden in the middle of text.
+          Implanty zębowe to metoda leczenia, która polega na wszczepieniu
+          elementów zastępujących korzenie utraconych zębów. Implanty stosujemy
+          w przypadku braków zębowych, bez względu na to, czy zęby zostały
+          utracone na skutek chorób, urazów czy procesu starzenia. Implanty
+          stanowią doskonałe rozwiązanie, ponieważ zapewniają trwałe i stabilne
+          wsparcie dla protez zębowych, mostów czy koron. Dzięki nim nasi
+          Pacjenci odzyskują pełnię funkcji gryzienia i estetyczny uśmiech. Co
+          więcej, implanty pomagają w zachowaniu struktury kości szczęki i
+          przeciwdziałają jej zanikowi. Implanty nie wymagają ingerencji w
+          sąsiednie zdrowe zęby (szlifowania), co jest konieczne w przypadku
+          tradycyjnych mostów. Jeśli więc zastanawiasz się, czy implanty będą
+          diobrym rozwiązaniem dla Ciebie - skonsultuj się z naszym lekarzem!
         </p>
         <Space />
-        <h3>Pełen uśmiech jest w zasięgu Twojej ręki! Umów wizytę!</h3> 
+        <h3>Pełen uśmiech jest w zasięgu Twojej ręki! Umów wizytę!</h3>
         <ButtonLink label="Chcę umówić konsultację" url="/kontakt" />
         <Space />
-        <Link className="backBtn" to="/">Wróć do strony głównej</Link>
+        <Link className="backBtn" to="/">
+          Wróć do strony głównej
+        </Link>
       </div>
     </section>
   </Layout>

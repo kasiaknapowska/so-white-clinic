@@ -201,12 +201,13 @@ body {
 }
 .heroImage {
   @media screen and (max-width: 999px) {
-    position: fixed;
-    bottom: 0;
-    height: 100vh;
-    left: -200px;
-    z-index: 1;
-    animation: fade-out 2s ease-out forwards;
+    // position: fixed;
+    // bottom: 0;
+    // height: 100vh;
+    // left: -200px;
+    // z-index: 1;
+    // animation: fade-out 2s ease-out forwards;
+    display: none;
   }
 
   @media screen and ($desktopS) {
@@ -222,13 +223,14 @@ body {
 }
 .heroApla {
   @media screen and (max-width: 999px) {
-    position: fixed;
-    bottom: 0;
-    height: 100vh;
-    width: 100%;
-    z-index: 1;
-    background-color: $colorPrimaryTransparentFlat;
-    animation: fade-out 2.5s ease-out forwards;
+    // position: fixed;
+    // bottom: 0;
+    // height: 100vh;
+    // width: 100%;
+    // z-index: 1;
+    // background-color: $colorPrimaryTransparentFlat;
+    // animation: fade-out 2.5s ease-out forwards;
+    display: none;
   }
   @media screen and ($desktopS) {
     display: none;

@@ -60,10 +60,6 @@ module.exports = {
     //         name: `Montserrat`,
     //         file: `https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap`,
     //       },
-    //       {
-    //         name: `Varela Round`,
-    //         file: `https://fonts.googleapis.com/css2?family=Varela+Round&display=swap`,
-    //       },
     //     ],
     //   },
     // },

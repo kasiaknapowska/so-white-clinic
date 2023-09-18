@@ -1,9 +1,8 @@
 @use "./variables" as *;
 %button {
-    font-family: $montserrat;
+    font-family: $montserrat500;
     background-color: $colorSecondary;
     color: white;
-    font-weight: 500;
     text-transform: uppercase;
     padding: $btnPadding;
     border-radius: $borderRadius;

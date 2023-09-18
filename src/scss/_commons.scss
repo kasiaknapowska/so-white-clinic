@@ -24,9 +24,30 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/montserrat.woff2") format("woff2");
-  font-weight: 400 500 600 700;
+  font-family: "Montserrat400";
+  src: url("/fonts/montserrat-regular.woff2") format("woff2");
+  src: url("/fonts/montserrat-regular.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat500";
+  src: url("/fonts/montserrat-medium.woff2") format("woff2");
+  src: url("/fonts/montserrat-medium.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat600";
+  src: url("/fonts/montserrat-semibold.woff2") format("woff2");
+  src: url("/fonts/montserrat-semibold.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat700";
+  src: url("/fonts/montserrat-bold.woff2") format("woff2");
+  src: url("/fonts/montserrat-bold.woff") format("woff");
   font-style: normal;
   font-display: swap;
 }
@@ -40,7 +61,7 @@
 }
 body {
   scroll-behavior: smooth;
-  font-family: $montserrat;
+  font-family: $montserrat400;
   color: $colorNeutralDark;
   font-size: $small;
   background-color: $colorPrimaryTransparent;
@@ -104,8 +125,7 @@ body {
   button {
     border: none;
     background-color: transparent;
-    font-family: $montserrat;
-    font-weight: 500;
+    font-family: $montserrat500;
     font-size: $medium;
   }
   button[type="submit"] {

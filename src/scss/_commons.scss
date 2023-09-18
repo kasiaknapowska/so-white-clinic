@@ -250,13 +250,13 @@ body {
     z-index: -2;
   }
 }
-// .gatsby-image-wrapper {
-//   position: relative !important;
-// }
-// .gatsby-image-wrapper.heroImageBg {
-//   position: absolute !important;
-// }
+.gatsby-image-wrapper {
+  position: relative !important;
+}
+.gatsby-image-wrapper.heroImageBg {
+  position: absolute !important;
+}
 
-// .gatsby-image-wrapper.heroImage {
-//   position: fixed !important;
-// }
+.gatsby-image-wrapper.heroImage {
+  position: fixed !important;
+}

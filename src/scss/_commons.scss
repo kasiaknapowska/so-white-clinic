@@ -23,33 +23,38 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* montserrat-regular - latin_latin-ext */
 @font-face {
-  font-family: "Montserrat400";
-  src: url("/fonts/montserrat-regular.woff2") format("woff2");
-  src: url("/fonts/montserrat-regular.woff") format("woff");
+  font-display: swap; 
+  font-family: 'Montserrat';
   font-style: normal;
-  font-display: swap;
+  font-weight: 400;
+  src: url('/fonts/montserrat-v26-latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* montserrat-500 - latin_latin-ext */
 @font-face {
-  font-family: "Montserrat500";
-  src: url("/fonts/montserrat-medium.woff2") format("woff2");
-  src: url("/fonts/montserrat-medium.woff") format("woff");
-  font-style: normal;
   font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/montserrat-v26-latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* montserrat-600 - latin_latin-ext */
 @font-face {
-  font-family: "Montserrat600";
-  src: url("/fonts/montserrat-semibold.woff2") format("woff2");
-  src: url("/fonts/montserrat-semibold.woff") format("woff");
+  font-display: swap; 
+  font-family: 'Montserrat';
   font-style: normal;
-  font-display: swap;
+  font-weight: 600;
+  src: url('/fonts/montserrat-v26-latin_latin-ext-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* montserrat-700 - latin_latin-ext */
 @font-face {
-  font-family: "Montserrat700";
-  src: url("/fonts/montserrat-bold.woff2") format("woff2");
-  src: url("/fonts/montserrat-bold.woff") format("woff");
-  font-style: normal;
   font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/montserrat-v26-latin_latin-ext-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 :root {
   scroll-behavior: auto !important;
@@ -61,7 +66,8 @@
 }
 body {
   scroll-behavior: smooth;
-  font-family: $montserrat400;
+  font-family: $montserrat;
+  font-weight: 400;
   color: $colorNeutralDark;
   font-size: $small;
   background-color: $colorPrimaryTransparent;
@@ -125,7 +131,8 @@ body {
   button {
     border: none;
     background-color: transparent;
-    font-family: $montserrat500;
+    font-family: $montserrat;
+    font-weight: 500;
     font-size: $medium;
   }
   button[type="submit"] {

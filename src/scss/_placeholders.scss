@@ -1,6 +1,7 @@
 @use "./variables" as *;
 %button {
-    font-family: $montserrat500;
+    font-family: $montserrat;
+    font-weight: 500;
     background-color: $colorSecondary;
     color: white;
     text-transform: uppercase;

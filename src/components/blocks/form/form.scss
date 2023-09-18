@@ -23,7 +23,7 @@ textarea {
   outline: none;
   color: $colorNeutralDark;
   font-size: $medium;
-  font-family: $montserrat400;
+  font-family: $montserrat;
   margin-top: $space1;
   margin-bottom: $space3;
   background-color: white;
@@ -31,7 +31,7 @@ textarea {
   &::placeholder {
     color: $colorNeutralLight;
     font-size: $small;
-    font-family: $montserrat400;
+    font-family: $montserrat;
   }
 
   &:focus {

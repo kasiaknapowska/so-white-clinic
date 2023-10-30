@@ -6,7 +6,6 @@ import Seo from "../components/seo"
 import Space from "../components/elements/space/space"
 import ButtonLink from "../components/elements/buttons/buttonLink"
 
-
 const Diagnostyka = () => (
   <Layout>
     <section className="topSection">
@@ -15,24 +14,42 @@ const Diagnostyka = () => (
           <h1>Diagnostyka w So White Clinic</h1>
           <h2>Jak dbamy o bezpieczeństo i komfort Pacjentów?</h2>
           <p>
-            lorem ipsum
+            Jeśli chodzi o diagnostykę stanu zdrowia jamy ustnej naszych
+            Pacjentów - w So White Clinic stawiamy na rozwiązania cyfrowe. Daje
+            to ogrom korzyści naszym Pacjentom. Cyfrowa diagnostyka
+            stomatologiczna wykorzystuje zaawansowane technologie, m.in. skaner
+            3D, cyfrowe zdjęcia RTG, tomografia komputerowa, które pozwalają nam
+            uzyskać dokładne obrazy struktur jamy ustnej. To oznacza, że możemy
+            precyzyjnie diagnozować problemy stomatologiczne, takie jak
+            próchnica, kamień nazębny, ubytki, infekcje, czy wady zgryzu już na
+            bardzo wczesnym etapie.
           </p>
+          <h2>Precyzyjne planowanie</h2>
           <p>
-            lorem ipsum
+            Dzięki diagnostyce cyfrowej, stomatolog ma możliwość dokładnego
+            planowania leczenia. Możemy precyzyjnie zobaczyć, jakie kroki będą
+            konieczne do przywrócenia pięknego i zdrowego uśmiechu naszych
+            Pacjentów. Za pomocą skanera 3D przeprowadzamy symulację
+            trójwymiarową, co pozwala na wizualizację efektów leczenia już na
+            etapie planowania, co znacząco ułatwia komunikację z pacjentem.
+            Wygenerowany model zębów może być natychmiast przesłany do
+            laboratorium w celu realizacji prac protetycznych. To oznacza, że
+            terapia jest bardziej spersonalizowana, skuteczniejsza i skraca się
+            czas trwania leczenia.
           </p>
-          <Space />
+          <p></p>
         </article>
 
         <aside>
-        <StaticImage
+          <StaticImage
             src="../images/diagnostyka.jpg"
             loading="eager"
-            width={1080}
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt=""
             style={{
-              width: "100%"
+              width: "100%",
+              height: "100%",
             }}
           />
         </aside>
@@ -41,7 +58,8 @@ const Diagnostyka = () => (
     <section className="noPaddingSection">
       <div className="container">
         <h3>
-          Chcesz mieć pewność, że Twój uśmiech jest w dobrych rękach? Zapraszamy do So White Clinic!
+          Chcesz mieć pewność, że Twój uśmiech jest w dobrych rękach? Zapraszamy
+          do So White Clinic!
         </h3>
         <ButtonLink label="Chcę umówić konsultację" url="/kontakt" />
       </div>

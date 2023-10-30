@@ -42,20 +42,21 @@ const Leczenie = () => (
             Pacjentom pewności siebie, sprawia, że częściej się uśmiechają,
             wzbudzają sympatię i zaufanie innych.
           </p>
-          <Space />
+        
         </article>
         <aside>
           <StaticImage
             src="../../images/leczenie.jpg"
             loading="eager"
-            width={1080}
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt=""
             style={{
-              width: "100%"
+              width: "100%",
+              height: "100%"
             }}
           />
+        
         </aside>
       </div>
     </section>

@@ -10,7 +10,6 @@ const Video = ({ videoSrcURL, videoTitle, aside, ...props }) => (
       rel="0"
       showinfo="0"
       autoplay="1"
-      loop="1"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       webkitallowfullscreen="true"
       mozallowfullscreen="true"

@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Space from "../../components/elements/space/space"
@@ -27,6 +28,23 @@ const LicowkiKorony = () => {
             stosunkowo nieinwazyjna, ponieważ wymaga minimalnego przygotowania
             zęba.
           </p>
+        </div>
+      </section>{" "}
+      <StaticImage
+        src="../../images/licówki.jpg"
+        loading="eager"
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt=""
+        style={{
+          width: "100%",
+          height: "600px",
+        }}
+      />
+      <Space/>
+      <Space />
+      <section className="noPaddingSection">
+        <div className="container">
           <h2>Co to są korony?</h2>
           <p>
             Korony protetyczne, z kolei, są bardziej wszechstronne i mogą być
@@ -48,7 +66,10 @@ const LicowkiKorony = () => {
             dużymi ubytkami, licówki i korony mogą stać się rozwiązaniem na
             miarę Twoich indywidualnych potrzeb.
           </p>
-          <Space />
+        </div>
+      </section>
+      <section>
+        <div className="container">
           <h3>Umów konsultację protetyczną!</h3>
           <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
           <Space />

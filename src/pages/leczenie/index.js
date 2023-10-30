@@ -11,7 +11,7 @@ import ButtonLink from "../../components/elements/buttons/buttonLink"
 
 const Leczenie = () => (
   <Layout>
-    <section className="topSection">
+    {/* <section className="topSection">
       <div className="container dflexLayout">
         <article>
           {" "}
@@ -53,13 +53,60 @@ const Leczenie = () => (
             alt=""
             style={{
               width: "100%",
-              height: "100%"
+              height: "100%",
+              maxHeight: "470px"
             }}
           />
         
         </aside>
       </div>
+    </section> */}
+    <section className="topSection">
+      <div className="container">
+        {" "}
+        <h1>Leczenie w So White Clinic</h1>
+        <h2>Hollywood Smile, czyli uśmiech doskonały. Jak go uzyskać?</h2>
+        <p>
+          Hollywood Smile, znane również jako uśmiech à la Hollywood, to
+          specjalność So White Clinic, a w stomatologii estetycznej jest
+          synonimem pięknych, perfekcyjnie wyglądających zębów, przypominających
+          uśmiechy znanych osobistości filmowych i telewizyjnych. Dla
+          stomatologów So White Clinic oznacza kompleksowe podejście do poprawy
+          estetyki zębów i uśmiechu pacjenta, mające na celu stworzenie idealnie
+          harmonijnego i atrakcyjnego wyglądu.
+        </p>
+        <p>
+          Jednak warto pamiętać, że Hollywood Smile to nie tylko kwestia wyglądu
+          zewnętrznego. Poprawa estetyki zębów wg. metody So White Clinic wpływa
+          również na funkcję gryzienia, wymowę i ogólną zdrowie jamy ustnej.
+          Pacjenci, którzy zdecydują się na Hollywood Smile, mogą cieszyć się
+          nie tylko pięknym uśmiechem, ale także lepszą jakością życia i większą
+          pewnością siebie w codziennych sytuacjach społecznych i zawodowych.
+        </p>
+        <p>
+          W So White Clinic oferujemy wiele zabiegów, które pozwolą naszym
+          Pacjentom spełnić marzenie o Hollywood Smile. Niewątpliwe warto –
+          wypracowany przez naszych stomatologów piękny uśmiech dodaje Pacjentom
+          pewności siebie, sprawia, że częściej się uśmiechają, wzbudzają
+          sympatię i zaufanie innych.
+        </p>
+      </div>
     </section>
+
+    <StaticImage
+      src="../../images/leczenie.jpg"
+      loading="eager"
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+      alt=""
+      style={{
+        width: "100%",
+        height: "100%",
+        maxHeight: "600px",
+      }}
+    />
+    <Space />
+    <Space />
     <section className="noPaddingSection">
       <div className="container">
         <h3>Poznaj swoją drogę do Hollywood Smile</h3>

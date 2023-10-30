@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Space from "../../components/elements/space/space"
@@ -31,8 +32,24 @@ const Implanty = () => (
           tradycyjnych mostów. Jeśli więc zastanawiasz się, czy implanty będą
           diobrym rozwiązaniem dla Ciebie - skonsultuj się z naszym lekarzem!
         </p>
-        <Space />
-        <h3>Pełen uśmiech jest w zasięgu Twojej ręki! Umów wizytę!</h3>
+      
+      </div>
+    </section>
+ 
+          <StaticImage
+            src="../../images/implanty.jpg"
+            loading="eager"
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt=""
+            style={{
+              width: "100%",
+              height: "600px",
+            }}
+          />
+    <section>
+      <div className="container">
+        <h3>Pełen uśmiech jest w zasięgu Twojej ręki! Umów wizytę!!</h3>
         <ButtonLink label="Chcę umówić konsultację" url="/kontakt" />
         <Space />
         <Link className="backBtn" to="/">

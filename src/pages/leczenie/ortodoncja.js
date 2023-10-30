@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Space from "../../components/elements/space/space"
@@ -29,7 +30,24 @@ const Ortodoncja = () => {
             decyzję o doborze najlepszego rozwiązania podejmuje Pacjent wraz z
             lekarzem prowadzącym.
           </p>
-          <Space />
+        </div>
+      </section>
+
+      <StaticImage
+        src="../../images/invisalign.jpg"
+        loading="eager"
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt=""
+        style={{
+          width: "100%",
+          height: "600px",
+        }}
+      />
+      <Space />
+      <Space />
+      <section className="noPaddingSection">
+        <div className="container">
           <h2>Proste zęby to nie tylko estetyka uśmiechu...</h2>
           <p>
             Nawet minimalne nieprawidłowości w ustawieniu zębów mogą prowadzić
@@ -43,7 +61,10 @@ const Ortodoncja = () => {
             korygowania ustawienia zębów przez stomatologa, bez konieczności
             długotrwałego leczenia ortodontycznego.
           </p>
-          <Space />
+        </div>
+      </section>
+      <section>
+        <div className="container">
           <h3>Chcesz w prosty sposób skorygować zgryz? Umów wizytę!</h3>
           <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
           <Space />

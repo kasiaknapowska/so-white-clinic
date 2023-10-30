@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Space from "../../components/elements/space/space"
@@ -33,24 +34,34 @@ const Wybielanie = () => {
               żywieniowych, higienicznych oraz aktualnej diety pacjenta, ale
               efekt może utrzymywać się nawet do 3 lat.
             </p>
+            <Space />
           </article>
           <aside>
-          <Video
-          videoSrcURL="https://youtube.com/embed/2irieDI4GB8"
-          videoTitle="Wybielanie zębów w So White Clinic"
-          aside
-          />
-        </aside>
+            <Video
+              videoSrcURL="https://youtube.com/embed/2irieDI4GB8"
+              videoTitle="Wybielanie zębów w So White Clinic"
+              aside
+            />
+          </aside>
         </div>
       </section>
-      <section className="noPaddingSection">
+
+      <StaticImage
+        src="../../images/wybielanie.jpg"
+        loading="eager"
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt=""
+        style={{
+          width: "100%",
+          height: "600px",
+        }}
+      />
+      <section>
         <div className="container">
           <h3>Chcesz wybielić zęby? Umów wizytę!</h3>
           <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
-        </div>
-      </section>
-      <section>
-        <div className="container">
+          <Space />
           <Link className="backBtn" to="/">
             Wróć do strony głównej
           </Link>

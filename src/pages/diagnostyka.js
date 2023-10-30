@@ -12,7 +12,7 @@ const Diagnostyka = () => (
       <div className="container dflexLayout">
         <article>
           <h1>Diagnostyka w So White Clinic</h1>
-          <h2>Jak dbamy o bezpieczeństo i komfort Pacjentów?</h2>
+          <h2>Jak dbamy o bezpieczeństwo i komfort Pacjentów?</h2>
           <p>
             Jeśli chodzi o diagnostykę stanu zdrowia jamy ustnej naszych
             Pacjentów - w So White Clinic stawiamy na rozwiązania cyfrowe. Daje
@@ -37,7 +37,6 @@ const Diagnostyka = () => (
             terapia jest bardziej spersonalizowana, skuteczniejsza i skraca się
             czas trwania leczenia.
           </p>
-          <p></p>
         </article>
 
         <aside>
@@ -52,6 +51,7 @@ const Diagnostyka = () => (
               height: "100%",
             }}
           />
+      
         </aside>
       </div>
     </section>

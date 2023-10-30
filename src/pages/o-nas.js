@@ -47,9 +47,9 @@ const ONas = ({ data }) => {
           </aside>
         </div>
       </section>
-      {/* <section className="noPaddingSection"> */}
+
       <Carousel carouselImg={carouselImg}/>
-      {/* </section> */}
+
       <section className="noPaddingSection">
         <div className="container">
           <h3>

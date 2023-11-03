@@ -9,7 +9,7 @@ import ButtonLink from "../../components/elements/buttons/buttonLink"
 const UsuwanieZebow = () => {
   return (
     <Layout>
-      <section className="topSection">
+      <section className="paddingSection topSection">
         <div className="container">
           <h1>Usuwanie zębów</h1>
           <h2>Delikatne i bezbolesne ekstrakcje zębów</h2>
@@ -37,7 +37,7 @@ const UsuwanieZebow = () => {
           </p>
         </div>
       </section>
-      <section className="noPaddingSection">
+      <section className="bottomSection">
         <div className="container">
           <h3>Umów konsultację z chirurgiem So White Clinic!</h3>
           <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
@@ -47,8 +47,7 @@ const UsuwanieZebow = () => {
           </Link>
         </div>
       </section>{" "}
-      <Space />
-      <Space />
+    
       <StaticImage
         src="../../images/ekstrakcja.jpg"
         loading="eager"

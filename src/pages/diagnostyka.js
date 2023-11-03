@@ -8,7 +8,7 @@ import ButtonLink from "../components/elements/buttons/buttonLink"
 
 const Diagnostyka = () => (
   <Layout>
-    <section className="topSection">
+    <section className="paddingSection topSection">
       <div className="container">
         <h1>Diagnostyka w So White Clinic</h1>
         <h2>Jak dbamy o bezpieczeństwo i komfort Pacjentów?</h2>
@@ -51,7 +51,7 @@ const Diagnostyka = () => (
       }}
     />
  
-    <section>
+    <section className="paddingSection">
       <div className="container">
         <h3>
           Chcesz mieć pewność, że Twój uśmiech jest w dobrych rękach? Zapraszamy

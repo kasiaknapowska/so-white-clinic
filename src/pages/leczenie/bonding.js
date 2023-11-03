@@ -9,7 +9,7 @@ import ButtonLink from "../../components/elements/buttons/buttonLink"
 const Bonding = () => {
   return (
     <Layout>
-      <section className="topSection">
+      <section className="paddingSection topSection">
         <div className="container">
           <h1>Bonding</h1>
           <h2>Nowoczesna metoda odbudowy zębów</h2>
@@ -46,7 +46,7 @@ const Bonding = () => {
           </p>
         </div>
       </section>
-      <section className="noPaddingSection">
+      <section className="bottomSection">
         <div className="container">
           <h3>
             Czy bonding będzie dla Ciebie odpowiedni? Zapraszamy na konsultację!
@@ -58,8 +58,7 @@ const Bonding = () => {
           </Link>
         </div>
       </section>
-      <Space/>
-      <Space/>
+   
       <StaticImage
         src="../../images/bonding.jpg"
         loading="eager"

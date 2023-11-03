@@ -9,7 +9,7 @@ import ButtonLink from "../../components/elements/buttons/buttonLink"
 const LicowkiKorony = () => {
   return (
     <Layout>
-      <section className="topSection">
+      <section className="paddingSection topSection">
         <div className="container">
           <h1>Licówki i korony</h1>
           <h2>Estetyczny uśmiech i mocne zęby</h2>
@@ -41,7 +41,7 @@ const LicowkiKorony = () => {
           height: "600px",
         }}
       />
-      <section >
+      <section className="paddingSection">
         <div className="container">
           <h2>Co to są korony?</h2>
           <p>
@@ -66,7 +66,7 @@ const LicowkiKorony = () => {
           </p>
         </div>
       </section>
-      <section className="noPaddingSection">
+      <section className="bottomSection">
         <div className="container">
           <h3>Umów konsultację protetyczną!</h3>
           <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
@@ -76,8 +76,7 @@ const LicowkiKorony = () => {
           </Link>
         </div>
       </section>
-      <Space/>
-      <Space/>
+    
     </Layout>
   )
 }

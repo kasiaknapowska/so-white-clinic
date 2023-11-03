@@ -9,7 +9,7 @@ import ButtonLink from "../../components/elements/buttons/buttonLink"
 const Higiena = () => {
   return (
     <Layout>
-      <section className="topSection">
+      <section className="paddingSection topSection">
         <div className="container">
           <h1>Estetyczna higienizacja</h1>
           <h2>Zabieg niezawodny, szybki i niezbędny każdemu Pacjentowi</h2>
@@ -37,24 +37,29 @@ const Higiena = () => {
             bezpiecznie stosować przy wrażliwych dziąsłach oraz wszystkich
             rodzajach uzupełnień estetycznych.
           </p>
-          <Space />
+        </div>
+      </section>
+      <section className="bottomSection">
+        <div className="container">
           <h3>Chcesz umówić wizytę? Zadzwoń do nas!</h3>
           <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
           <Space />
-          <Link className="backBtn" to="/">Wróć do strony głównej</Link>
+          <Link className="backBtn" to="/">
+            Wróć do strony głównej
+          </Link>
         </div>
       </section>
       <StaticImage
-      src="../../images/higiena.jpg"
-      loading="eager"
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt=""
-      style={{
-        width: "100%",
-        height: "600px",
-      }}
-    />
+        src="../../images/higiena.jpg"
+        loading="eager"
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt=""
+        style={{
+          width: "100%",
+          height: "600px",
+        }}
+      />
     </Layout>
   )
 }

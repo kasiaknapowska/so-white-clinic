@@ -26,35 +26,36 @@
 
 /* montserrat-regular - latin_latin-ext */
 @font-face {
-  font-display: swap; 
-  font-family: 'Montserrat';
+  font-display: swap;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/montserrat-v26-latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/fonts/montserrat-v26-latin_latin-ext-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* montserrat-500 - latin_latin-ext */
 @font-face {
   font-display: swap;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  src: url('/fonts/montserrat-v26-latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/fonts/montserrat-v26-latin_latin-ext-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* montserrat-600 - latin_latin-ext */
 @font-face {
-  font-display: swap; 
-  font-family: 'Montserrat';
+  font-display: swap;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  src: url('/fonts/montserrat-v26-latin_latin-ext-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/fonts/montserrat-v26-latin_latin-ext-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* montserrat-700 - latin_latin-ext */
 @font-face {
   font-display: swap;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  src: url('/fonts/montserrat-v26-latin_latin-ext-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/fonts/montserrat-v26-latin_latin-ext-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 :root {
   scroll-behavior: auto !important;
@@ -146,20 +147,31 @@ body {
   }
 
   section {
-    padding: calc($space6) 0;
+    padding: 0;
 
+    &.paddingSection {
+      padding: calc($space6) 0;
+    }
     &.topSection {
       padding-top: calc($space4 + 110px);
     }
-    &.noPaddingSection {
-      padding: 0;
+    &.bottomSection {
+      padding-bottom: calc($space4 * 2);
     }
+    // &.noPaddingSection {
+    //   padding: 0;
+    // }
 
     @media screen and ($tablet) {
-      padding: calc($space6 * 2) 0;
-
+      // padding: calc($space6 * 2) 0;
+      &.paddingSection {
+        padding: calc($space6 * 2) 0;
+      }
       &.topSection {
         padding-top: calc($space6 * 2 + 110px);
+      }
+      &.bottomSection {
+        padding-bottom: calc($space6 * 2);
       }
     }
   }
@@ -269,4 +281,3 @@ body {
 .gatsby-image-wrapper.heroImage {
   position: fixed !important;
 }
-

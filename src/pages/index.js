@@ -37,7 +37,7 @@ const IndexPage = () => (
       alt=""
     />
 
-    <section className="topSection">
+    <section className="paddingSection topSection">
       <div className="container">
         <RevealOnScroll>
           <h1>
@@ -61,16 +61,25 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <div className="container">
-      <RevealOnScroll>
-        <MotionCarousel>
-          {heroTextCardsLinks.map((el, i) => {
-            return <TextCard key={el.label + i} label={el.label} url={el.url} ariaLabel={`${el.label} - dowiedz się więcej`}/>
-          })}
-        </MotionCarousel>
-      </RevealOnScroll>
-    </div>
-    <section>
+    <section >
+      <div className="container">
+        <RevealOnScroll>
+          <MotionCarousel>
+            {heroTextCardsLinks.map((el, i) => {
+              return (
+                <TextCard
+                  key={el.label + i}
+                  label={el.label}
+                  url={el.url}
+                  ariaLabel={`${el.label} - dowiedz się więcej`}
+                />
+              )
+            })}
+          </MotionCarousel>
+        </RevealOnScroll>
+      </div>
+    </section>
+    <section className="paddingSection">
       <div className="container">
         <RevealOnScroll>
           <h2>
@@ -111,6 +120,7 @@ const IndexPage = () => (
         </ol>
       </div>
     </section>
+    <Space/>
     <FormSection />
   </Layout>
 )

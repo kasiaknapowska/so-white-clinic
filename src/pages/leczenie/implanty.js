@@ -8,7 +8,7 @@ import ButtonLink from "../../components/elements/buttons/buttonLink"
 
 const Implanty = () => (
   <Layout>
-    <section className="topSection">
+    <section className="paddingSection topSection">
       <div className="container dflexLayout">
         <article>
           <h1>Uzupełnianie zębów implantami</h1>
@@ -70,7 +70,7 @@ const Implanty = () => (
         height: "600px",
       }}
     />
-    <section>
+    <section className="paddingSection">
       <div className="container">
         <h3>Pełen uśmiech jest w zasięgu Twojej ręki! Umów wizytę!!</h3>
         <ButtonLink label="Chcę umówić konsultację" url="/kontakt" />

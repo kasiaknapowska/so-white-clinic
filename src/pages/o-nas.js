@@ -11,7 +11,7 @@ const ONas = ({ data }) => {
   const carouselImg = data.allFile.nodes
   return (
     <Layout>
-      <section className="topSection">
+      <section className="paddingSection topSection">
         <div className="container dflexLayout">
           <article>
             <h1>Prosta droga do uśmiechu</h1>
@@ -50,21 +50,19 @@ const ONas = ({ data }) => {
 
       <Carousel carouselImg={carouselImg} />
 
-      <section className="noPaddingSection">
+      <section className="paddingSection">
         <div className="container">
           <h3>
             Chcesz poznać swoją drogę do Hollywood smile? Skonsultuj się z
             naszym lekarzem!
           </h3>
           <ButtonLink label="Chcę umówić konsultację" url="/kontakt" />
-          <Space/>
+          <Space />
           <Link className="backBtn" to="/">
             Wróć do strony głównej
           </Link>
         </div>
       </section>
-     <Space/>
-     <Space/>
     </Layout>
   )
 }

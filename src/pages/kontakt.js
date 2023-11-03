@@ -8,7 +8,7 @@ import Space from "../components/elements/space/space"
 
 const Kontakt = () => (
   <Layout>
-    <section className="topSection">
+    <section className="bottomSection topSection">
       <div className="container dflexLayout">
         <div>
           <h1>Skontaktuj się z nami</h1>

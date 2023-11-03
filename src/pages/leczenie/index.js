@@ -92,7 +92,7 @@ const Leczenie = () => (
         </p>
       </div>
     </section>
-    <section className="noPaddingSection">
+    <section className="paddingSection">
       <div className="container">
         <h2>Poznaj swoją drogę do Hollywood smile</h2>
         <p>Kliknij w strzałkę przy wybranym zabiegu i dowiedz się więcej</p>
@@ -104,8 +104,7 @@ const Leczenie = () => (
         </MotionCarousel>
       </div>
     </section>
-    <Space />
-    <Space />
+
     <StaticImage
       src="../../images/leczenie.jpg"
       loading="eager"
@@ -118,9 +117,8 @@ const Leczenie = () => (
         maxHeight: "600px",
       }}
     />
-    <Space />
-    <Space />
-    <section className="noPaddingSection">
+  
+    <section className="paddingSection">
       <div className="container">
         <h3>Od pięknego uśmiechu dzieli Cię tylko jeden krok!</h3>
         <ButtonLink label="Chcę umówić konsultację" url="/kontakt" />
@@ -130,8 +128,7 @@ const Leczenie = () => (
         </Link>
       </div>
     </section>
-    <Space />
-    <Space />
+
   </Layout>
 )
 

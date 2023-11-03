@@ -45,7 +45,7 @@ const Wybielanie = () => {
           </aside>
         </div>
       </section>
-      <section className="noPaddingSection">
+      <section className="bottomSection">
         <div className="container">
           <h3>Chcesz wybielić zęby? Umów wizytę!</h3>
           <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
@@ -55,8 +55,7 @@ const Wybielanie = () => {
           </Link>
         </div>
       </section>
-      <Space/>
-      <Space/>
+  
       <StaticImage
         src="../../images/wybielanie.jpg"
         loading="eager"

@@ -158,12 +158,8 @@ body {
     &.bottomSection {
       padding-bottom: calc($space4 * 2);
     }
-    // &.noPaddingSection {
-    //   padding: 0;
-    // }
 
     @media screen and ($tablet) {
-      // padding: calc($space6 * 2) 0;
       &.paddingSection {
         padding: calc($space6 * 2) 0;
       }

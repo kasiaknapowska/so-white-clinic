@@ -9,4 +9,7 @@
     padding: $space6 0;
     margin: 0;
     padding-bottom: calc($space6 * 3);
+    @media screen and ($tablet) {
+        padding: calc($space6 * 2);
+    }
 }

@@ -53,7 +53,7 @@ const UsuwanieZebow = () => {
         loading="eager"
         quality={95}
         formats={["auto", "webp", "avif"]}
-        alt=""
+        alt="delikatne usuwanie zębów"
         style={{
           width: "100%",
           height: "600px",

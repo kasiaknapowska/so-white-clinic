@@ -64,7 +64,7 @@ const Bonding = () => {
         loading="eager"
         quality={95}
         formats={["auto", "webp", "avif"]}
-        alt=""
+        alt="bonding"
         style={{
           width: "100%",
           height: "600px",

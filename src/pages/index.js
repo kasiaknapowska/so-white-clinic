@@ -24,7 +24,7 @@ const IndexPage = () => (
       width={1080}
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt=""
+      alt="So White Clinic logo"
     />
     {/* <div className="heroApla"></div> */}
     <StaticImage
@@ -34,7 +34,7 @@ const IndexPage = () => (
       width={1080}
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt=""
+      alt="Hollywood smile"
     />
 
     <section className="paddingSection topSection">

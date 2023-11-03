@@ -35,7 +35,7 @@ const LicowkiKorony = () => {
         loading="eager"
         quality={95}
         formats={["auto", "webp", "avif"]}
-        alt=""
+        alt="licówki i korony zębowe"
         style={{
           width: "100%",
           height: "600px",

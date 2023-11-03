@@ -43,7 +43,7 @@ const Diagnostyka = () => (
       loading="eager"
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt=""
+      alt="cyfrowa diagnostyka stomatologiczna"
       style={{
         width: "100%",
         height: "100%",

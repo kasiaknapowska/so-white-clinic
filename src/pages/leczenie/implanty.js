@@ -45,7 +45,7 @@ const Implanty = () => (
             loading="eager"
             quality={95}
             formats={["auto", "webp", "avif"]}
-            alt=""
+            alt="budowa implantu zębowego"
             style={{
               width: "100%",
               height: "100%",
@@ -64,7 +64,7 @@ const Implanty = () => (
       loading="eager"
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt=""
+      alt="implant zębowy"
       style={{
         width: "100%",
         height: "600px",

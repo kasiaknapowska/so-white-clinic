@@ -110,7 +110,7 @@ const Leczenie = () => (
       loading="eager"
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt=""
+      alt="leczenie zębów w so white clinic"
       style={{
         width: "100%",
         height: "100%",

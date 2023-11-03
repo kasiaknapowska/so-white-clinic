@@ -38,7 +38,7 @@ const Ortodoncja = () => {
         loading="eager"
         quality={95}
         formats={["auto", "webp", "avif"]}
-        alt=""
+        alt="przezroczyste nakładki ortodontyczne Invisalign Go"
         style={{
           width: "100%",
           height: "600px",

@@ -92,7 +92,20 @@ const Leczenie = () => (
         </p>
       </div>
     </section>
-
+    <section className="noPaddingSection">
+      <div className="container">
+        <h2>Poznaj swoją drogę do Hollywood smile</h2>
+        <p>Kliknij w strzałkę przy wybranym zabiegu i dowiedz się więcej</p>
+        <Space />
+        <MotionCarousel fullWidth>
+          {offerTextLinks.map((el, i) => {
+            return <TextCard key={el.label + i} label={el.label} url={el.url} />
+          })}
+        </MotionCarousel>
+      </div>
+    </section>
+    <Space />
+    <Space />
     <StaticImage
       src="../../images/leczenie.jpg"
       loading="eager"
@@ -109,25 +122,16 @@ const Leczenie = () => (
     <Space />
     <section className="noPaddingSection">
       <div className="container">
-        <h3>Poznaj swoją drogę do Hollywood Smile</h3>
-        <p>Kliknij w wybrany zabieg i dowiedz się więcej</p>
-        <Space />
-        <MotionCarousel fullWidth>
-          {offerTextLinks.map((el, i) => {
-            return <TextCard key={el.label + i} label={el.label} url={el.url} />
-          })}
-        </MotionCarousel>
-        <Space />
+        <h3>Od pięknego uśmiechu dzieli Cię tylko jeden krok!</h3>
         <ButtonLink label="Chcę umówić konsultację" url="/kontakt" />
-      </div>
-    </section>
-    <section>
-      <div className="container">
+        <Space />
         <Link className="backBtn" to="/">
           Wróć do strony głównej
         </Link>
       </div>
     </section>
+    <Space />
+    <Space />
   </Layout>
 )
 

@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Space from "../../components/elements/space/space"
@@ -43,6 +44,17 @@ const Higiena = () => {
           <Link className="backBtn" to="/">Wróć do strony głównej</Link>
         </div>
       </section>
+      <StaticImage
+      src="../../images/higiena.jpg"
+      loading="eager"
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+      alt=""
+      style={{
+        width: "100%",
+        height: "600px",
+      }}
+    />
     </Layout>
   )
 }

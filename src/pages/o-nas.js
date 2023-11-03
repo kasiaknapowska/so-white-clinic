@@ -48,7 +48,7 @@ const ONas = ({ data }) => {
         </div>
       </section>
 
-      <Carousel carouselImg={carouselImg}/>
+      <Carousel carouselImg={carouselImg} />
 
       <section className="noPaddingSection">
         <div className="container">
@@ -57,15 +57,14 @@ const ONas = ({ data }) => {
             naszym lekarzem!
           </h3>
           <ButtonLink label="Chcę umówić konsultację" url="/kontakt" />
-        </div>
-      </section>
-      <section>
-        <div className="container">
+          <Space/>
           <Link className="backBtn" to="/">
             Wróć do strony głównej
           </Link>
         </div>
       </section>
+     <Space/>
+     <Space/>
     </Layout>
   )
 }

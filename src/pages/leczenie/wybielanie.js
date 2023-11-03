@@ -45,7 +45,18 @@ const Wybielanie = () => {
           </aside>
         </div>
       </section>
-
+      <section className="noPaddingSection">
+        <div className="container">
+          <h3>Chcesz wybielić zęby? Umów wizytę!</h3>
+          <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
+          <Space />
+          <Link className="backBtn" to="/">
+            Wróć do strony głównej
+          </Link>
+        </div>
+      </section>
+      <Space/>
+      <Space/>
       <StaticImage
         src="../../images/wybielanie.jpg"
         loading="eager"
@@ -57,16 +68,6 @@ const Wybielanie = () => {
           height: "600px",
         }}
       />
-      <section>
-        <div className="container">
-          <h3>Chcesz wybielić zęby? Umów wizytę!</h3>
-          <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
-          <Space />
-          <Link className="backBtn" to="/">
-            Wróć do strony głównej
-          </Link>
-        </div>
-      </section>
     </Layout>
   )
 }

@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Space from "../../components/elements/space/space"
@@ -43,13 +44,33 @@ const Bonding = () => {
             czyścić nicią dentystyczną przestrzenie między zębami. Codzienną
             higienę można wesprzeć stosując irygator.
           </p>
-          <Space />
-          <h3>Czy bonding będzie dla Ciebie odpowiedni? Zapraszamy na konsultację!</h3>
-          <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
-          <Space />
-          <Link className="backBtn" to="/">Wróć do strony głównej</Link>
         </div>
       </section>
+      <section className="noPaddingSection">
+        <div className="container">
+          <h3>
+            Czy bonding będzie dla Ciebie odpowiedni? Zapraszamy na konsultację!
+          </h3>
+          <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
+          <Space />
+          <Link className="backBtn" to="/">
+            Wróć do strony głównej
+          </Link>
+        </div>
+      </section>
+      <Space/>
+      <Space/>
+      <StaticImage
+        src="../../images/bonding.jpg"
+        loading="eager"
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt=""
+        style={{
+          width: "100%",
+          height: "600px",
+        }}
+      />
     </Layout>
   )
 }

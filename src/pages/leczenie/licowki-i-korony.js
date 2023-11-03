@@ -41,9 +41,7 @@ const LicowkiKorony = () => {
           height: "600px",
         }}
       />
-      <Space/>
-      <Space />
-      <section className="noPaddingSection">
+      <section >
         <div className="container">
           <h2>Co to są korony?</h2>
           <p>
@@ -68,7 +66,7 @@ const LicowkiKorony = () => {
           </p>
         </div>
       </section>
-      <section>
+      <section className="noPaddingSection">
         <div className="container">
           <h3>Umów konsultację protetyczną!</h3>
           <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
@@ -78,6 +76,8 @@ const LicowkiKorony = () => {
           </Link>
         </div>
       </section>
+      <Space/>
+      <Space/>
     </Layout>
   )
 }

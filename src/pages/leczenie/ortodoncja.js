@@ -44,9 +44,8 @@ const Ortodoncja = () => {
           height: "600px",
         }}
       />
-      <Space />
-      <Space />
-      <section className="noPaddingSection">
+
+      <section>
         <div className="container">
           <h2>Proste zęby to nie tylko estetyka uśmiechu...</h2>
           <p>
@@ -63,7 +62,7 @@ const Ortodoncja = () => {
           </p>
         </div>
       </section>
-      <section>
+      <section className="noPaddingSection">
         <div className="container">
           <h3>Chcesz w prosty sposób skorygować zgryz? Umów wizytę!</h3>
           <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
@@ -73,6 +72,8 @@ const Ortodoncja = () => {
           </Link>
         </div>
       </section>
+      <Space />
+      <Space />
     </Layout>
   )
 }

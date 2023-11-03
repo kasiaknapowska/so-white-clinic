@@ -1,9 +1,9 @@
 import React from "react"
-import {asideVideo} from "./video.module.scss"
+import { asideVideo } from "./video.module.scss"
 const Video = ({ videoSrcURL, videoTitle, aside, ...props }) => (
   <div className="video">
     <iframe
-    className={aside ? asideVideo : ""}
+      className={aside ? asideVideo : ""}
       src={videoSrcURL}
       title={videoTitle}
       controls="0"

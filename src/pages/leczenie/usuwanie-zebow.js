@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Space from "../../components/elements/space/space"
@@ -34,8 +35,10 @@ const UsuwanieZebow = () => {
             byłoby nieopłacalne i kompromisowe, wówczas decydujemy się usunąć
             ząb i zastąpić go odbudową protetyczną (mostem) lub implantem.
           </p>
-
-          <Space />
+        </div>
+      </section>
+      <section className="noPaddingSection">
+        <div className="container">
           <h3>Umów konsultację z chirurgiem So White Clinic!</h3>
           <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
           <Space />
@@ -43,7 +46,20 @@ const UsuwanieZebow = () => {
             Wróć do strony głównej
           </Link>
         </div>
-      </section>
+      </section>{" "}
+      <Space />
+      <Space />
+      <StaticImage
+        src="../../images/ekstrakcja.jpg"
+        loading="eager"
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt=""
+        style={{
+          width: "100%",
+          height: "600px",
+        }}
+      />
     </Layout>
   )
 }

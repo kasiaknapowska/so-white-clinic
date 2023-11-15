@@ -131,7 +131,7 @@ const IndexPage = () => (
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
 export const Head = () => (
-  <Seo title="Spełnij marzenia o Hollywood smile" description="W So White Clinic zadbamy o Twój piękny uśmiech! Prostowanie zębów, wybielanie, korony, licówki. Umów konsultację 32 60 60 400."/>
+  <Seo title="Spełnij marzenia o Hollywood smile" description="W So White Clinic zadbamy o Twój piękny uśmiech! Prostowanie zębów, wybielanie, korony, licówki. Umów konsultację w Katowicach 32 60 60 400."/>
 )
 
 export default IndexPage

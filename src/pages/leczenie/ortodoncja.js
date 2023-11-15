@@ -77,7 +77,7 @@ const Ortodoncja = () => {
 }
 
 export const Head = () => (
-  <Seo title="Ortodoncja - prosta korekta zgryzu Invisalign Go" />
+  <Seo title="Prosta korekta zgryzu Invisalign Go" description="Chcesz poprawić wygląd uśmiechu i wyprostować krzywe, stłoczone lub zrotowane zęby? Zapraszamy na konsultację do So White Clinic w Katowicach. Stosujemy nowoczesne metody leczenia ortodontycznego, m.in. niewidoczne nakładki Invisalign Go."/>
 )
 
 export default Ortodoncja

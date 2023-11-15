@@ -63,6 +63,6 @@ const UsuwanieZebow = () => {
   )
 }
 
-export const Head = () => <Seo title="Usuwanie zębów" />
+export const Head = () => <Seo title="Usuwanie zębów" description="Usuwanie zębów w znieczuleniu. Bezpieczne planowanie zabiegu. Usuwanie zębów pod mikroskopem. Potrzebujesz pomocy - zadzwoń do nas 32 60 60 400."/>
 
 export default UsuwanieZebow

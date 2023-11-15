@@ -24,7 +24,7 @@ const IndexPage = () => (
       width={1080}
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt="So White Clinic logo"
+      alt="So White Clinic - logo kliniki stomatologicznej w Katowicach"
     />
     {/* <div className="heroApla"></div> */}
     <StaticImage
@@ -34,7 +34,7 @@ const IndexPage = () => (
       width={1080}
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt="Hollywood smile"
+      alt="Hollywood smile Spełnij marzenia o pięknym uśmiechu"
     />
 
     <section className="paddingSection topSection">

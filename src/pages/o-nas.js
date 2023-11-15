@@ -84,6 +84,6 @@ export const pageQuery = graphql`
   }
 `
 
-export const Head = () => <Seo title="O nas" />
+export const Head = () => <Seo title="Odkryj swoją drogę do pięknego uśmiechu" description="Pełen zakres zabiegów stomatologicznych. Ortodoncja. Wybielanie zębów. Korony i licówki. Implanty zębowe. Zadzwoń 32 60 60 400. "/>
 
 export default ONas

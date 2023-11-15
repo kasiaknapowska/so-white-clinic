@@ -31,6 +31,6 @@ const Kontakt = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Kontakt" />
+export const Head = () => <Seo title="Skontaktuj się z nami" description="Jeśli marzysz o pięknym uśmiechu nie zwlekaj - skontaktuj się z nami. Zadzwoń i umów wizytę w naszym gabinecie w Katowicach 32 60 60 400."/>
 
 export default Kontakt

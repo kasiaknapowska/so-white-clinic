@@ -72,6 +72,6 @@ const Diagnostyka = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Diagnostyka" />
+export const Head = () => <Seo title="Cyfrowa diagnostyka stomatologiczna w Katowicach" description="Precyzyjna diagnostyka stomatologiczna. Zaawansowane technologie. Skanowanie 3D. Tomografia komputerowa. Zadzwoń i umów wizytę 32 60 60 400."/>
 
 export default Diagnostyka

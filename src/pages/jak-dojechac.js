@@ -26,6 +26,6 @@ const JakDojechac = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Jak do nas dojechać" />
+export const Head = () => <Seo title="Jak do nas dojechać" description="Klinika stomatologii So White Clinic mieści się w Katowicach na Brynowie. Zobacz mapę dojazdu. Katowice, ul. Czajek 5. Zapraszamy!"/>
 
 export default JakDojechac

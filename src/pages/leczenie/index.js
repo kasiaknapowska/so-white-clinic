@@ -135,6 +135,6 @@ const Leczenie = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Leczenie w So White Clinic" />
+export const Head = () => <Seo title="Leczenie zębów w Katowicach" description="Krzywe zęby, przebarwienia, próchnica, ubytki na zębach lub braki zębowe? Chcesz uzyskać efekt Hollywood Smile? W So White Clinic zadbamy kompleksowo o Twój uśmiech. Zadzwoń 32 60 60 400"/>
 
 export default Leczenie

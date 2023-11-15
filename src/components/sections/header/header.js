@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 // import logo from "../../images/logo/swc-logo.png"
 
 import {header, logo} from "./header.module.scss"
@@ -14,7 +13,7 @@ const Header = () => (
   <header className={header}>
     <div className="container">
     <Link to="/">
-      <img src={Logo} alt="logo" className={logo} width="200" height="80"/>
+      <img src={Logo} alt="logo kliniki stomatologicznej So White Clinic" title="So White Clinic stomatologia Katowice" className={logo} width="200" height="80"/>
     </Link>
     <Navigation links={navLinks}/>
     <Button label="Zadzwoń teraz" link={`tel:${contact.phone}`} type="callUsBtn" withIcon/>

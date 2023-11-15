@@ -71,6 +71,6 @@ const Wybielanie = () => {
   )
 }
 
-export const Head = () => <Seo title="Wybielanie zębów" />
+export const Head = () => <Seo title="Wybielanie zębów" description="Wybielanie zębów w Katowicach. Metody dostosowane do potrzeb Pacjentów. Wybielanie nakładkowe. Wybielanie i odbudową szkliwa. Długotrwały efekt śnieżnej bieli."/>
 
 export default Wybielanie

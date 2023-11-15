@@ -30,7 +30,7 @@ const Carousel = ({ carouselImg }) => {
       >
         {carouselImg.map((el, i) => {
           const img = getImage(el)
-          {console.log(el)}
+          console.log(el.name)
           return (
             <GatsbyImage
               image={img}

@@ -74,6 +74,6 @@ const Bonding = () => {
   )
 }
 
-export const Head = () => <Seo title="Bonding & flow injection" />
+export const Head = () => <Seo title="Bonding | Poprawa estetyki uśmiechu" description="Poprawa kształtu i estetyki uśmiechu. Likwidacja diastemy. Licówki kompozytowe. Szybkie efekty. Umów wizytę 32 60 60 400."/>
 
 export default Bonding

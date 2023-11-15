@@ -81,6 +81,6 @@ const LicowkiKorony = () => {
   )
 }
 
-export const Head = () => <Seo title="Licówki i korony na zęby" />
+export const Head = () => <Seo title="Licówki i korony na zęby" description="Chcesz poprawić wygląd Twoich zębów? Masz przebarwienia, ubytki, skazy na zębach? Licówki lub korony protetyczne mogą być dla Ciebie dobrym rozwiązaniem. Dowiedz się więcej podczas konsultacji w So White Clinic w Katowicach."/>
 
 export default LicowkiKorony

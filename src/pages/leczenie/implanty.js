@@ -84,7 +84,7 @@ const Implanty = () => (
 )
 
 export const Head = () => (
-  <Seo title="Uzupełnianie brakujących zębów implantami" />
+  <Seo title="Uzupełnianie brakujących zębów implantami" description="Brak zębów to nie tylko kwestia estetyki. Odzyskaj pełen uśmiech i funkcję gryzienia. Precyzyjna diagnostyka i bezpieczne zabiegi. Umów konsultację w Katowicach 32 60 60 400."/>
 )
 
 export default Implanty

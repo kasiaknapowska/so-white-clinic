@@ -64,6 +64,6 @@ const Higiena = () => {
   )
 }
 
-export const Head = () => <Seo title="Higienizacja zębów" />
+export const Head = () => <Seo title="Higienizacja zębów Katowice" description="Kompleksowe czyszczenie kamienia i osadu nazębnego. Metoda ultradźwiękowa. Laserowa diagnostyka próchnicy. Zadzwoń 32 60 60 400."/>
 
 export default Higiena

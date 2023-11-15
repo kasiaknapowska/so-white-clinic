@@ -5,6 +5,7 @@ import Seo from "../components/seo"
 import Form from "../components/blocks/form/form"
 import Contact from "../components/blocks/contact/contact"
 import Space from "../components/elements/space/space"
+import RevealOnScroll from "../components/effects/reveal/revealOnScroll"
 
 const Kontakt = () => (
   <Layout>
@@ -22,7 +23,8 @@ const Kontakt = () => (
           <p>Poniedziałek - piątek:&nbsp;&nbsp;&nbsp;8:00 - 20:00</p>
           <Space/>
         </div>
-        <Form />
+        <RevealOnScroll><Form /></RevealOnScroll>
+        
       </div>
     </section>
 

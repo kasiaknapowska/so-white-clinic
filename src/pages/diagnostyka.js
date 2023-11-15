@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Space from "../components/elements/space/space"
 import ButtonLink from "../components/elements/buttons/buttonLink"
+import RevealOnScroll from "../components/effects/reveal/revealOnScroll"
 
 const Diagnostyka = () => (
   <Layout>
@@ -38,7 +39,8 @@ const Diagnostyka = () => (
         </p>
       </div>
     </section>
-    <StaticImage
+   <RevealOnScroll>
+   <StaticImage
       src="../images/diagnostyka.jpg"
       loading="eager"
       quality={95}
@@ -48,8 +50,10 @@ const Diagnostyka = () => (
         width: "100%",
         height: "100%",
         maxHeight: "600px",
+        
       }}
     />
+   </RevealOnScroll>
  
     <section className="paddingSection">
       <div className="container">

@@ -6,6 +6,8 @@ import Space from "../components/elements/space/space"
 import ButtonLink from "../components/elements/buttons/buttonLink"
 import Accordion from "../components/blocks/accordion/accordion"
 import Carousel from "../components/blocks/carousel/carousel"
+import RevealOnScroll from "../components/effects/reveal/revealOnScroll"
+
 
 const ONas = ({ data }) => {
   const carouselImg = data.allFile.nodes
@@ -48,7 +50,9 @@ const ONas = ({ data }) => {
         </div>
       </section>
 
+      <RevealOnScroll>
       <Carousel carouselImg={carouselImg} />
+      </RevealOnScroll>
 
       <section className="paddingSection">
         <div className="container">

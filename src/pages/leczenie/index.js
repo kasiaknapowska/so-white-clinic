@@ -8,6 +8,7 @@ import Space from "../../components/elements/space/space"
 import MotionCarousel from "../../components/blocks/motionCarousel/motionCarousel"
 import TextCard from "../../components/blocks/textCard/textCard"
 import ButtonLink from "../../components/elements/buttons/buttonLink"
+import RevealOnScroll from "../../components/effects/reveal/revealOnScroll"
 
 const Leczenie = () => (
   <Layout>
@@ -105,7 +106,8 @@ const Leczenie = () => (
       </div>
     </section>
 
-    <StaticImage
+<RevealOnScroll>
+<StaticImage
       src="../../images/leczenie.jpg"
       loading="eager"
       quality={95}
@@ -117,6 +119,7 @@ const Leczenie = () => (
         maxHeight: "600px",
       }}
     />
+</RevealOnScroll>
   
     <section className="paddingSection">
       <div className="container">

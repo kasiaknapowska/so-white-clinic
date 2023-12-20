@@ -151,7 +151,14 @@ const Form = () => {
           kontaktu za pośrednictwem formularza.{" "}
           <AnchorLink
             to="/polityka-prywatnosci#zgoda"
-            title="Zgoda na przetwarzanie danych"
+            title="Wyrażam zgodę na przetwarzanie moich danych osobowych przez Roman
+            Borczyk Klinika Implantologii i Stomatologii Estetycznej sp.j. z
+            siedzibą w Katowicach w celu przesłania informacji handlowych
+            drogą elektroniczną na podany adres e-mail zgodnie z ustawą z dnia
+            18 lipca 2002r o świadczeniu usług droga elektroniczną (Dz.U. 2002
+            Nr 144, 1204 z późn. zm.), zgodnie z art. 23 ustawy z dnia 29
+            sierpnia 1997r. o ochronie danych osobowych (tekst jednolity Dz.
+            U. z 2015r., poz. 2135)."
           >
             Pełna treść zgody.
           </AnchorLink>{" "}

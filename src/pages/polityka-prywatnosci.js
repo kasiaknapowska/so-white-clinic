@@ -49,10 +49,9 @@ const PolitykaPrywatnosci = () => {
       <section className="paddingSection">
         <div className="container">
           <h3>
-            Chcesz mieć pewność, że Twój uśmiech jest w dobrych rękach?
-            Zapraszamy do So White Clinic!
+            Masz pytania? Skontaktuj się z nami!
           </h3>
-          <ButtonLink label="Chcę umówić konsultację" url="/kontakt" />
+          <ButtonLink label="Przejdź do kontaktu" url="/kontakt" />
           <Space />
           <Link className="backBtn" to="/">
             Wróć do strony głównej

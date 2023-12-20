@@ -50,6 +50,12 @@ module.exports = {
         icon: `src/images/logo/swc-icon-512.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -200
+      }
+    },
     // {
     //   resolve: `gatsby-omni-font-loader`,
     //   options: {

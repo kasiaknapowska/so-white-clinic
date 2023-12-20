@@ -32,7 +32,7 @@ const PolitykaPrywatnosci = () => {
               telefonicznie {phoneLabel} lub mailowo {email}.
             </p>
             <Space/>
-            <h2>Zgoda na przetwarzanie danych osobowych</h2>
+            <h2 id="zgoda">Zgoda na przetwarzanie danych osobowych</h2>
             <p>
               Wyrażam zgodę na przetwarzanie moich danych osobowych przez Roman
               Borczyk Klinika Implantologii i Stomatologii Estetycznej sp.j. z

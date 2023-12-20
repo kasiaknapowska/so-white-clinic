@@ -12,7 +12,7 @@ export const heroTextCardsLinks = [
   { label: "Invisalign Go korekta wad zgryzu", url: "/leczenie/ortodoncja" },
   { label: "Bonding ręką Mistrza", url: "/leczenie/bonding" },
   { label: "Estetyczne licówki", url: "/leczenie/licowki-i-korony" },
-  { label: "Raty 1% Finansowanie leczenia", url: "/raty" },
+  // { label: "Raty 1% Finansowanie leczenia", url: "/raty" },
 ]
 
 export const offerTextLinks = [

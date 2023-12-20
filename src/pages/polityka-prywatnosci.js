@@ -47,7 +47,7 @@ const PolitykaPrywatnosci = () => {
         </section>
       </RevealOnScroll>
 
-      <section className="paddingSection">
+      <section className="bottomSection">
         <div className="container">
           <h3>
             Masz pytania? Skontaktuj się z nami!

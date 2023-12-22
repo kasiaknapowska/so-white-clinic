@@ -1,0 +1,36 @@
+@import "../../../scss/variables";
+.cookiesContainer {
+    position: fixed;
+    bottom: 0;
+    background-color: $colorNeutralDark;
+    padding: $space3 $space6;
+    width: 100%;
+    z-index: 30;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 $space2;
+    align-items: center;
+  }
+  .cookiesContainer > p {
+    font-size: $small;
+    color: white;
+    margin: 0;
+  }
+  .modalBtn {
+    border: 1px solid white;
+    border-radius: $borderRadius;
+    background-color: transparent;
+    font-size: $small;
+    color: white;
+    padding: $space2;
+    cursor: pointer;
+    text-decoration: none;
+    margin: $space2 0;
+    font-family: $montserrat;
+    min-height: 35px;
+  }
+  .modalBtn:hover {
+    text-decoration: none;
+    background-color: $colorNeutral;
+    transition: 0.5s;
+  }

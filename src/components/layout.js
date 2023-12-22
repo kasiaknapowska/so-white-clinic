@@ -2,6 +2,7 @@ import * as React from "react"
 import Header from "./sections/header/header"
 import Footer from "./sections/footer/footer"
 import ScrollToTop from "./elements/scrollToTop/scrollToTop"
+import CookieModal from "./blocks/cookieModal/cookieModal"
 
 const Layout = ({ children }) => {
 
@@ -11,7 +12,7 @@ const Layout = ({ children }) => {
       <Header />
       <main>{children}</main>
       <Footer />
-      
+      <CookieModal/>
     </>
   )
 }

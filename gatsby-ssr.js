@@ -8,7 +8,7 @@ const React = require("react")
  * @type {import('gatsby').GatsbySSR['onRenderBody']}
  */
 exports.onRenderBody = ({ setHtmlAttributes, setHeadComponents }) => {
-  setHtmlAttributes({ lang: `en` })
+  setHtmlAttributes({ lang: `pl-PL` })
 
   // setHeadComponents([
   //   <link

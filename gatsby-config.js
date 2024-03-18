@@ -56,6 +56,13 @@ module.exports = {
         offset: -200
       }
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-MS8SQ2JV",
+        includeInDevelopment: false,
+      },
+    },
     // {
     //   resolve: `gatsby-omni-font-loader`,
     //   options: {

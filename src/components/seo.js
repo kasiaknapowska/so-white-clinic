@@ -7,6 +7,7 @@
 
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import OGImage from "../images/logo/og-so-white-clinic.jpg"
 
 function Seo({ description, title, children }) {
   const { site } = useStaticQuery(
@@ -32,6 +33,8 @@ function Seo({ description, title, children }) {
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
+      <meta property="og:url" content="https://sowhiteclinic.pl/"/>
+      <meta property="og:image" content={"https://sowhiteclinic.pl" + OGImage}/>
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
